@@ -6,7 +6,7 @@ A local technical news aggregator. Fetches GitHub Trending, Hacker News, and Red
 
 - bash, curl, jq
 - Node.js 18+
-- Claude Code CLI (for summarisation — uses your existing login, no API key needed)
+- no API key needed
 
 ## First run
 
