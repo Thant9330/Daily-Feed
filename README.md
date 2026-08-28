@@ -26,33 +26,28 @@ prompt into a chat, save the reply, and a jq script turns it into the feed.
 
 ## Screenshots
 
-> **Placeholder** — drop your images into `docs/screenshots/` and the links below will resolve.
-
 ### Reading view — `localhost:3000`
 
-<!-- ![Reading view](docs/screenshots/reading-view.png) -->
+![Reading view](docs/screenshots/reading-view.png)
 
 _The default page: the day's `feed.md` rendered top to bottom, with a jump nav and date picker._
 
 ### Card dashboard — `localhost:3000/dashboard`
 
-<!-- ![Dashboard](docs/screenshots/dashboard.png) -->
+![Dashboard](docs/screenshots/dashboard.png)
 
 _Source filters, search, bookmarks, and read/unread tracking._
 
+<!--
 ### Archive browsing — `localhost:3000/YYYY-MM-DD`
 
-<!-- ![Archive](docs/screenshots/archive.png) -->
+![Archive](docs/screenshots/archive.png)
 
 _Any previously fetched day, served from `data/YYYY-MM-DD/`._
+-->
 
-| File to add | Shows |
-|---|---|
-| `docs/screenshots/reading-view.png` | Default reading view with a summarised day |
-| `docs/screenshots/dashboard.png` | Card grid with filters active |
-| `docs/screenshots/archive.png` | Date picker open on the archive list |
-
-Once the files exist, uncomment the `<!-- ![...] -->` lines above.
+<!-- Pending slot: save a shot of the date picker open on the archive list to
+     docs/screenshots/archive.png, then delete the two comment markers above. -->
 
 ---
 
