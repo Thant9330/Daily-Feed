@@ -1,0 +1,19 @@
+# Normalise text files to LF inside the repository.
+* text=auto
+
+# Shell scripts must be LF in the WORKING TREE, not just in the repo.
+# Git for Windows defaults to core.autocrlf=true, which would otherwise check
+# these out with CRLF; bash then fails on the shebang with
+#   $'\r': command not found
+# breaking `bash start.sh` for anyone who clones on Windows.
+*.sh text eol=lf
+
+# Same reasoning — these are read by bash/jq, not by Windows tools.
+.gitattributes text eol=lf
+.gitignore     text eol=lf
+
+# Binary: never apply line-ending conversion.
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary

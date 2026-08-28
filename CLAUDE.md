@@ -7,7 +7,7 @@ and serves a dashboard UI. No email. No login. Just a clean daily feed.
 ## Sources
 - GitHub Trending — via mshibanami/GitHubTrendingRSS (no auth)
 - Hacker News   — via Algolia API (no auth)
-- Reddit        — r/programming + r/MachineLearning via JSON API (User-Agent required)
+- Reddit        — r/programming + r/MachineLearning via public Atom feed (User-Agent required)
 
 ## Folder layout
 ```
@@ -52,7 +52,11 @@ daily-feed/
 - Raw data always written as JSON to `data/<source>.json`
 - Never hardcode API keys. Use env vars: `ANTHROPIC_API_KEY`
 - Use `jq` for all JSON parsing — no Python/Node in shell scripts
-- Reddit requests must include `User-Agent: DailyFeedBot/1.0` and `sleep 2` between calls
+- Reddit requests must include `User-Agent: DailyFeedBot/1.0`. Fetch ALL subreddits in ONE
+  combined `r/a+b` request — the feed rate-limits hard (429) on back-to-back calls, so a second
+  request costs more than it gains. Failures retry 3× with a 15s/30s backoff; adding a subreddit
+  to the `SUBREDDITS` array costs no extra request. The Atom feed carries no score or comment
+  count, so both are written as 0.
 - Qiita/Zenn date quirks: see scripts for inline comments
 - The web UI reads only `build-feed.sh` outputs — `data/feed.json` (dashboard) and
   `data/feed.md` (reading view) — never the raw `github.json`/`hackernews.json`/`reddit.json`
