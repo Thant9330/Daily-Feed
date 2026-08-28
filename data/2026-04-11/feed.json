@@ -1,0 +1,705 @@
+{
+  "date": "2026-04-11",
+  "items": [
+    {
+      "id": "github-nousresearch-hermes-agent",
+      "source": "github",
+      "title": "NousResearch/hermes-agent: Adaptive AI Agent Framework",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Hermes-agent is an open-source AI agent framework from NousResearch designed to scale capabilities alongside user needs. It builds on the Hermes model lineage and provides a structured environment for deploying and extending agentic workflows. The project targets developers building production-grade AI agent applications.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-forrestchang-andrej-karpathy-skills",
+      "source": "github",
+      "title": "forrestchang/andrej-karpathy-skills: Curated Skills from Karpathy's Work",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "summary": "A community-curated repository that distills practical technical skills and mental models from Andrej Karpathy's public work, lectures, and writing. It serves as a reference for those studying deep learning fundamentals and ML engineering practices. The repo aggregates lessons from sources like the Neural Networks: Zero to Hero series.",
+      "tags": [
+        "ML",
+        "career"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-hkuds-deeptutor",
+      "source": "github",
+      "title": "HKUDS/DeepTutor: AI-Powered Intelligent Tutoring System",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "summary": "DeepTutor is a research project from HKUDS that applies large language models to intelligent tutoring, providing adaptive explanations and feedback to learners. It integrates retrieval-augmented generation to ground responses in course material. The system targets educational use cases requiring personalized, context-aware instruction.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-openbmb-voxcpm",
+      "source": "github",
+      "title": "OpenBMB/VoxCPM: Tokenizer-Free Multilingual TTS with Voice Cloning",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "summary": "VoxCPM2 is a text-to-speech model that operates without a tokenizer, enabling multilingual speech generation, creative voice design, and high-fidelity voice cloning. The approach removes the typical tokenization bottleneck in TTS pipelines, potentially improving naturalness across languages. Released by OpenBMB as an open-source research artifact.",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-opendataloader-pdf",
+      "source": "github",
+      "title": "opendataloader-project/opendataloader-pdf: Open-Source PDF Parser for AI Pipelines",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "summary": "OpenDataLoader-PDF is an open-source tool that parses PDF documents into structured, AI-ready data formats while also improving PDF accessibility. It is designed to slot into data ingestion pipelines for LLM training or RAG systems. The project aims to automate the otherwise manual process of extracting clean text and structure from PDFs.",
+      "tags": [
+        "AI",
+        "data",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-obra-superpowers",
+      "source": "github",
+      "title": "obra/superpowers: Personal Productivity Tooling",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "Superpowers is a personal toolkit by Jesse Vincent (obra) that augments developer workflows with automation and custom commands. The repository contains scripts and utilities built for daily use, reflecting an opinionated approach to productivity tooling. It lacks extensive documentation, positioning it as a personal rather than general-purpose project.",
+      "tags": [
+        "tools"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-thecraighewitt-seomachine",
+      "source": "github",
+      "title": "TheCraigHewitt/seomachine: Claude Code Workspace for SEO Blog Content",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "summary": "SEOMachine is a Claude Code workspace template specialized for producing long-form, SEO-optimized blog posts. It structures the research, writing, and optimization workflow around Claude's coding assistant capabilities. The tool targets marketers and developers who want to systematize content production for search rankings.",
+      "tags": [
+        "tools",
+        "AI"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-coleam00-archon",
+      "source": "github",
+      "title": "coleam00/Archon: Open-Source Harness Builder for AI Coding",
+      "url": "https://github.com/coleam00/Archon",
+      "summary": "Archon is an open-source framework that generates structured harnesses around AI coding tools to make their outputs deterministic and repeatable. It addresses the reliability gap in AI-assisted development by enforcing consistent scaffolding and constraints. The project positions itself as infrastructure for teams that need auditable, reproducible AI-generated code.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-shiyu-coder-kronos",
+      "source": "github",
+      "title": "shiyu-coder/Kronos: Foundation Model for Financial Market Language",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "summary": "Kronos is a foundation model trained on financial market data, treating price movements and market signals as a language to be modeled. It applies transformer-based sequence modeling to tasks such as forecasting and pattern recognition in financial time series. The project is oriented toward quantitative research and algorithmic trading applications.",
+      "tags": [
+        "ML",
+        "data"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-yishuntu-claudian",
+      "source": "github",
+      "title": "YishenTu/claudian: Claude Code Plugin for Obsidian",
+      "url": "https://github.com/YishenTu/claudian",
+      "summary": "Claudian is an Obsidian plugin that embeds Claude Code directly into a user's vault, enabling AI-assisted note editing, code generation, and knowledge management within the Obsidian environment. It bridges the gap between a local markdown knowledge base and an AI coding collaborator. The plugin targets developers and researchers who use Obsidian as their primary workspace.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-1d-chess",
+      "source": "hackernews",
+      "title": "1D Chess: Chess Played on a Single-Row Board",
+      "url": "https://rowan441.github.io/1dchess/chess.html",
+      "summary": "A browser-based implementation of chess constrained to a one-dimensional board, forcing players to rethink positional strategy entirely. The project is a programming exercise and puzzle toy that explores how classical game rules translate to a degenerate geometry. It serves as an accessible demonstration of game theory and rule adaptation.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-macos-privacy-trust",
+      "source": "hackernews",
+      "title": "Why macOS Privacy and Security Settings Cannot Be Fully Trusted",
+      "url": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
+      "summary": "An analysis of structural limitations in macOS Privacy and Security controls, arguing that the system's enforcement mechanisms have gaps that can allow unauthorized data access despite correct user configuration. The article examines specific scenarios where the settings do not reliably protect user data. It raises questions about the reliability of Apple's privacy guarantees at the OS level.",
+      "tags": [
+        "security"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-wireguard-windows-signing",
+      "source": "hackernews",
+      "title": "WireGuard Releases New Windows Build After Microsoft Signing Dispute Resolution",
+      "url": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html",
+      "summary": "The WireGuard project has published a new Windows release following the resolution of a code-signing dispute with Microsoft that had blocked official Windows builds. The mailing list post details the circumstances of the signing issue and confirms the updated package is now available. This restores the official distribution path for WireGuard on Windows.",
+      "tags": [
+        "security",
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-keychron-hardware-design",
+      "source": "hackernews",
+      "title": "Keychron Releases Industrial Design Files for Keyboards and Mice",
+      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+      "summary": "Keychron has published industrial design files—including CAD models and schematics—for its keyboard and mouse product lineup on GitHub. The release enables hardware enthusiasts and engineers to study, modify, or manufacture compatible accessories. This is a notable step toward open hardware in the mechanical keyboard space.",
+      "tags": [
+        "tools",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-cpuid-compromised",
+      "source": "hackernews",
+      "title": "CPU-Z and HWMonitor Official Site Hijacked, Distributing Malware",
+      "url": "https://www.theregister.com/2026/04/10/cpuid_site_hijacked/",
+      "summary": "The official CPUID website, distributor of the popular CPU-Z and HWMonitor utilities, was compromised and used to serve malicious downloads to users. The attack targeted a widely trusted source for system diagnostics tools, increasing the risk of users installing malware without suspicion. Users who recently downloaded these tools are advised to verify their installers.",
+      "tags": [
+        "security"
+      ],
+      "relevance": 5,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-filing-macbook-corners",
+      "source": "hackernews",
+      "title": "Filing the Corners off MacBooks: A Hardware Modification Experiment",
+      "url": "https://kentwalters.com/posts/corners/",
+      "summary": "A personal account of physically filing down the sharp corners of MacBook chassis for ergonomic comfort during extended use. The post documents the process, tools used, and the resulting finish, offering a practical guide for others considering the modification. It reflects broader DIY hardware culture around consumer laptops.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-helium-hard-to-replace",
+      "source": "hackernews",
+      "title": "Why Helium Is Difficult to Substitute in Industrial and Scientific Applications",
+      "url": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
+      "summary": "An in-depth examination of helium's unique physical properties—including its extremely low boiling point and inertness—that make it irreplaceable in applications such as MRI machines, semiconductor manufacturing, and cryogenics. The article traces supply chain vulnerabilities and explains why synthetic alternatives have not emerged. It contextualizes helium scarcity as a structural industrial risk.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-chimpanzee-civil-war",
+      "source": "hackernews",
+      "title": "Researchers Document Eight-Year 'Civil War' Among Ugandan Chimpanzees",
+      "url": "https://www.bbc.com/news/articles/cr71lkzv49po",
+      "summary": "A research team has documented an eight-year conflict between chimpanzee groups in Uganda characterized by coordinated intergroup violence, territorial expansion, and sustained hostility. The findings contribute to understanding of primate social behavior and the evolutionary roots of organized conflict. The study is notable for the duration and scale of the observed aggression.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-artemis-ii-splashdown",
+      "source": "hackernews",
+      "title": "Artemis II Crew Capsule Completes Safe Splashdown",
+      "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/",
+      "summary": "NASA's Artemis II mission concluded with the Orion crew capsule safely splashing down, marking the successful completion of the first crewed lunar flyby mission since Apollo. The mission tested life-support and crew systems at lunar distances in preparation for future lunar surface missions. Recovery operations were conducted by the U.S. Navy.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-ericwbailey-cryptic-title",
+      "source": "hackernews",
+      "title": "On Clickbait Patterns and Accessibility in Web Writing",
+      "url": "https://ericwbailey.website/published/a-compelling-title-that-is-cryptic-enough-to-get-you-to-take-action-on-it/",
+      "summary": "Eric Bailey critiques the use of deliberately cryptic or curiosity-gap titles in web publishing, arguing they create accessibility barriers for users relying on screen readers or link previews. The post examines how this pattern prioritizes engagement metrics over clarity and inclusion. It offers concrete guidance for writing titles that are both compelling and descriptive.",
+      "tags": [
+        "web",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-linux-kernel-ai-assistance",
+      "source": "hackernews",
+      "title": "Linux Kernel Documentation on Using AI Coding Assistants for Contributions",
+      "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+      "summary": "The Linux kernel project has added official documentation outlining guidelines and cautions for contributors using AI coding assistants. It addresses concerns about AI-generated code quality, license compliance, and the need for human review before submission. The document reflects the kernel community's cautious, process-oriented approach to integrating AI tools.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 5,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-json-formatter-adware",
+      "source": "hackernews",
+      "title": "Popular JSON Formatter Chrome Extension Closed and Now Injecting Adware",
+      "url": "https://github.com/callumlocke/json-formatter",
+      "summary": "The widely-used JSON Formatter Chrome extension has been shut down by its original maintainer and subsequently modified to inject adware into users' browsers. The incident highlights supply chain risks in browser extension ecosystems, where ownership or control transfers can weaponize trusted tools against their user base. Users with the extension installed are advised to remove it immediately.",
+      "tags": [
+        "security",
+        "web"
+      ],
+      "relevance": 5,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-intel-486-anniversary",
+      "source": "hackernews",
+      "title": "Intel 486 CPU Announced April 10, 1989: A Historical Retrospective",
+      "url": "https://dfarq.homeip.net/intel-486-cpu-announced-april-10-1989/",
+      "summary": "A retrospective marking 37 years since Intel announced the 486 processor, reviewing its architectural significance as the first x86 chip with an integrated FPU and cache. The article traces its impact on the PC industry and how it set the stage for the Pentium era. It draws on contemporary documentation and benchmarks to illustrate the performance leap it represented.",
+      "tags": [
+        "systems",
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-altman-molotov-response",
+      "source": "hackernews",
+      "title": "Sam Altman Responds to Molotov Cocktail Incident at OpenAI",
+      "url": "https://blog.samaltman.com/2279512",
+      "summary": "Sam Altman published a blog post responding to a reported molotov cocktail incident targeting OpenAI facilities. The post addresses the event's context and Altman's perspective on threats faced by the organization. It provides limited technical detail but is notable for the public acknowledgment of physical security threats against an AI company.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-steveblank-nowhere-safe",
+      "source": "hackernews",
+      "title": "Steve Blank: Geopolitical Instability and Its Effect on Tech Startups",
+      "url": "https://steveblank.com/2026/04/09/nowhere-is-safe/",
+      "summary": "Steve Blank argues that rising geopolitical instability has eliminated the notion of safe operating environments for technology companies and startups. The post examines how regulatory fragmentation, tariffs, and international tensions force founders to make geographic and structural decisions they previously could ignore. It offers a strategic framing for navigating a more adversarial global business environment.",
+      "tags": [
+        "career",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-fluidcad",
+      "source": "hackernews",
+      "title": "FluidCAD: Parametric CAD Modeling with JavaScript",
+      "url": "https://fluidcad.io/",
+      "summary": "FluidCAD is a browser-based parametric CAD tool that uses JavaScript as its modeling language, allowing designers to define geometry programmatically. It targets developers and engineers who prefer code-driven design workflows over traditional GUI-based CAD systems. The tool runs entirely in the browser without requiring local installation.",
+      "tags": [
+        "tools",
+        "web"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-every-firefox-extension",
+      "source": "hackernews",
+      "title": "An Experiment in Installing Every Firefox Extension",
+      "url": "https://jack.cab/blog/every-firefox-extension",
+      "summary": "A developer documents the process and outcomes of installing every available Firefox extension simultaneously, cataloging conflicts, performance degradation, and unexpected behaviors. The experiment surfaces interesting edge cases in Firefox's extension architecture and permission model. It serves as both a stress test and a survey of the current extension ecosystem.",
+      "tags": [
+        "web",
+        "security"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-watgo-webassembly-go",
+      "source": "hackernews",
+      "title": "Watgo: A WebAssembly Toolkit for Go",
+      "url": "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/",
+      "summary": "Watgo is a Go library that provides utilities for working with WebAssembly modules, including parsing WAT (WebAssembly Text Format), assembling binaries, and inspecting Wasm module structure. The post by Eli Bendersky walks through the toolkit's design and demonstrates its use for building Go-based Wasm tooling. It fills a gap for Go developers who need low-level Wasm manipulation without leaving the Go ecosystem.",
+      "tags": [
+        "systems",
+        "tools"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-miniword-python-wysiwyg",
+      "source": "hackernews",
+      "title": "Miniword: A WYSIWYG Word Processor Written in Python",
+      "url": "https://codeberg.org/chrisecker/miniword",
+      "summary": "Miniword is a lightweight WYSIWYG word processor implemented entirely in Python, without relying on a heavy GUI framework. It demonstrates that rich text editing with real-time formatting is achievable in Python with minimal dependencies. The project is positioned as both a usable tool and a learning reference for GUI and text layout programming.",
+      "tags": [
+        "tools"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-openclaw-memory-unreliable",
+      "source": "hackernews",
+      "title": "OpenClaw's Memory Is Unreliable: Failure Modes Observed at Scale",
+      "url": "https://blog.nishantsoni.com/p/ive-seen-a-thousand-openclaw-deploys",
+      "summary": "Based on observations across a large number of OpenClaw deployments, this post documents recurring patterns of memory failure and unpredictable context loss in agentic AI systems. The author argues that the failure modes are systematic rather than edge cases, and that current deployments lack adequate safeguards. The piece advocates for better reliability engineering and observability in AI agent infrastructure.",
+      "tags": [
+        "AI",
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-twill-ai-cloud-agents",
+      "source": "hackernews",
+      "title": "Twill.ai (YC S25): Delegate Tasks to Cloud Agents, Receive Pull Requests",
+      "url": "https://twill.ai",
+      "summary": "Twill.ai is a YC S25 startup that runs autonomous cloud agents to complete software engineering tasks delegated by developers, delivering results as pull requests. The service targets teams that want to offload routine implementation work without managing agent infrastructure themselves. It competes in the emerging market of AI-powered software delegation platforms.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-eve-managed-openclaw",
+      "source": "hackernews",
+      "title": "Eve: Managed OpenClaw for Workplace Use",
+      "url": "https://eve.new/login",
+      "summary": "Eve is a managed service built on OpenClaw that packages agentic AI capabilities for enterprise and team environments, handling infrastructure, security, and access control. It targets organizations that want to deploy AI agents without building and maintaining the underlying platform. The service is positioned as a turnkey solution for workplace AI automation.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-calvino-traveller-uncertainty",
+      "source": "hackernews",
+      "title": "Italo Calvino: A Traveller in a World of Uncertainty",
+      "url": "https://www.historytoday.com/archive/portrait-author-historian/italo-calvino-traveller-world-uncertainty",
+      "summary": "A literary portrait of Italo Calvino examining his intellectual biography and recurring themes of uncertainty, structure, and imagination in works like Invisible Cities and If on a winter's night a traveler. The article situates Calvino within postwar Italian intellectual history and the broader context of European experimental fiction. It draws on his essays and interviews to trace the philosophical underpinnings of his narrative style.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-bild-ai-hiring",
+      "source": "hackernews",
+      "title": "Bild AI (YC W25) Hiring Founding Product Engineer",
+      "url": "https://www.ycombinator.com/companies/bild-ai/jobs/dDMaxVN-founding-product-engineer",
+      "summary": "Bild AI, a YC W25 company, is recruiting a founding product engineer to help build its core product. The listing targets early-career or mid-level engineers interested in a founding team role at an early-stage AI startup. Limited product details are publicly available.",
+      "tags": [
+        "career",
+        "AI"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-collectwise-hiring",
+      "source": "hackernews",
+      "title": "CollectWise (YC F24) Hiring AI Agent Engineer",
+      "url": "https://www.ycombinator.com/companies/collectwise/jobs/Ktc6m6o-ai-agent-engineer",
+      "summary": "CollectWise, a YC F24 company, is seeking an AI agent engineer to work on its core platform. The role is focused on building and deploying autonomous AI agents, likely in a collections or financial services context given the company name. It is an early-stage opportunity at a recently funded startup.",
+      "tags": [
+        "career",
+        "AI"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-floating-point-scratch-hard-mode",
+      "source": "reddit",
+      "title": "Floating Point from Scratch: Implementing IEEE 754 at the Hardware Level",
+      "url": "https://essenceia.github.io/projects/floating_dragon/",
+      "summary": "A detailed walkthrough of implementing IEEE 754 floating-point arithmetic from first principles in hardware description language, covering rounding modes, special values, and exception handling. The project, called Floating Dragon, is designed as a learning exercise in digital logic and numeric computing. It provides RTL source code alongside explanatory documentation for each design decision.",
+      "tags": [
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-go-tree-sitter-no-cgo",
+      "source": "reddit",
+      "title": "Parsing 11 Languages in Pure Go Without CGO Using a Tree-Sitter Runtime",
+      "url": "https://glinr.hashnode.dev/parsing-11-languages-in-pure-go-without-cgo-how-i-replaced-regex-with-a-tree-sitter-runtime",
+      "summary": "A developer describes replacing regex-based language parsing with a pure-Go tree-sitter runtime that avoids CGO, enabling cross-compilation and simpler deployment. The implementation supports 11 programming languages and delivers accurate syntax-aware parsing without native bindings. The post details the architecture decisions and performance tradeoffs involved in the pure-Go approach.",
+      "tags": [
+        "tools",
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-aws-outage-race-condition-model-checker",
+      "source": "reddit",
+      "title": "Reproducing an AWS Outage Race Condition with a Model Checker",
+      "url": "https://wyounas.github.io/aws/concurrency/2025/10/30/reproducing-the-aws-outage-race-condition-with-model-checker/",
+      "summary": "The author uses a formal model checker to reproduce and analyze a race condition responsible for an AWS service outage, demonstrating how model checking can identify concurrency bugs that are difficult to catch through testing alone. The post walks through the specification of the distributed system state machine and the counterexample produced by the checker. It serves as a practical introduction to applying formal methods to real-world cloud infrastructure failures.",
+      "tags": [
+        "systems",
+        "data"
+      ],
+      "relevance": 5,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-xslt-large-xml-datasets",
+      "source": "reddit",
+      "title": "Using XSLT to Analyse Large XML Datasets Efficiently",
+      "url": "https://xn--mbius-jua.band/blog/nmapview/",
+      "summary": "A practical post demonstrating how XSLT can be applied to process and analyze large XML datasets, using Nmap scan output as the working example. The author shows how declarative XSLT transformations can replace custom scripts for extracting and summarizing structured data. It highlights XSLT's underutilized strengths for data pipeline tasks involving XML.",
+      "tags": [
+        "data",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-netflix-safe-automation-scale",
+      "source": "reddit",
+      "title": "Netflix's Approach to Safe Automation at Scale",
+      "url": "https://youtu.be/rfjpzCqBH0k?list=PLEx5khR4g7PINwOsYrkwz3lTTJUYoXC53",
+      "summary": "A conference talk by Netflix engineers Aubrey Chipman and Roberto Perez Alcolea describing how Netflix designs automation systems to remain safe under failure conditions at large scale. The presentation covers progressive rollout strategies, automated canary analysis, and circuit breaker patterns used in production. It draws on concrete examples from Netflix's infrastructure to illustrate the tradeoffs between automation speed and operational safety.",
+      "tags": [
+        "systems",
+        "tools"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-decorating-promises-js",
+      "source": "reddit",
+      "title": "Decorating JavaScript Promises with Convenience Methods Without Subclassing",
+      "url": "https://blog.gaborkoos.com/posts/2026-04-10-Decorating-Promises-Without-Breaking-Them/",
+      "summary": "A JavaScript blog post exploring techniques for adding convenience methods to Promise instances without subclassing, wrapping, or altering the value returned by await. The author demonstrates a proxy-based approach that preserves native Promise semantics while extending the interface. The post addresses a common pitfall where customized Promise wrappers break async/await compatibility.",
+      "tags": [
+        "web"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-balanced-parentheses-analogy",
+      "source": "reddit",
+      "title": "Fitting Room Analogy for Teaching the Balanced Parentheses Problem",
+      "url": "https://cheesebytes.com/cave/jacket-you-never-wore-balanced-parentheses/",
+      "summary": "A teaching post that uses a fitting-room metaphor—where each item tried on must be returned before leaving—to explain the stack-based balanced parentheses algorithm. The analogy is aimed at beginners encountering the problem for the first time in a CS or coding interview context. It prioritizes intuition over formalism to make the algorithm memorable.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-cublas-rtx5090-matmul-bug",
+      "source": "reddit",
+      "title": "60% Matrix Multiplication Performance Bug Found in cuBLAS on RTX 5090",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1shtv0r/d_60_matmul_performance_bug_in_cublas_on_rtx_5090/",
+      "summary": "A community investigation has identified a significant performance regression in cuBLAS matrix multiplication operations on NVIDIA's RTX 5090, with throughput approximately 60% below expected for certain matrix shapes. The bug affects deep learning workloads that rely heavily on cuBLAS GEMM kernels. The thread documents reproduction steps and partial workarounds while awaiting an official NVIDIA response.",
+      "tags": [
+        "ML",
+        "systems"
+      ],
+      "relevance": 5,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-large-scale-ocr",
+      "source": "reddit",
+      "title": "Approaches and Challenges for Large-Scale OCR Pipelines",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1shg2ob/d_large_scale_ocr_d/",
+      "summary": "A community discussion on the practical challenges of running OCR at scale, covering model selection, handling diverse document types, error correction strategies, and infrastructure considerations. Participants share experience with both open-source tools like Tesseract and commercial APIs, comparing accuracy and cost at volume. The thread surfaces several underexplored approaches to handling difficult document layouts and multilingual content.",
+      "tags": [
+        "ML",
+        "data"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-ijcai-reviewer-sabotage",
+      "source": "reddit",
+      "title": "Researcher Reports Being Sabotaged by a Reviewer at IJCAI",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1si2od5/getting_sabotaged_by_a_reviewer_at_ijcai_d/",
+      "summary": "A researcher describes receiving a suspiciously hostile and factually incorrect review at IJCAI, raising concerns about deliberate sabotage by a competitor reviewer. The post documents the specific patterns in the review that suggest bad faith and discusses the limited recourse available within current conference review processes. It prompts a broader community discussion about peer review integrity and accountability in ML conferences.",
+      "tags": [
+        "career",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-ibu-boost-gbdt",
+      "source": "reddit",
+      "title": "ibu-boost: A GBDT Library with Absolute Split Rejection Thresholds",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1shpdm2/p_ibuboost_a_gbdt_library_where_splits_are/",
+      "summary": "ibu-boost is a gradient boosted decision tree library that enforces absolute rejection criteria for candidate splits, rather than ranking them relatively as in standard implementations like XGBoost or LightGBM. The approach aims to prevent splits that do not meet a minimum quality threshold regardless of available alternatives, potentially improving model calibration. The post presents initial benchmarks and explains the theoretical motivation for the design.",
+      "tags": [
+        "ML",
+        "tools"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-image-video-training-data-scarce",
+      "source": "reddit",
+      "title": "Discussion: What Image and Video Training Data Is Hardest to Find?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1shibc9/what_imagevideo_training_data_is_hardest_to_find/",
+      "summary": "A community survey thread identifying categories of image and video training data that are scarce or difficult to license for ML research, including fine-grained industrial defect imagery, rare medical conditions, and culturally specific content from underrepresented regions. Respondents discuss workarounds such as synthetic data generation and federated learning. The discussion reflects ongoing tension between data hunger in large vision models and availability constraints.",
+      "tags": [
+        "ML",
+        "data"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-new-ideas-ai-development",
+      "source": "reddit",
+      "title": "Proposed Ideas for Novel AI Development Approaches",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1si1mi8/some_new_ideas_for_ai_development_p/",
+      "summary": "A community post outlining several speculative proposals for new directions in AI model development, covering areas such as alternative training objectives and architectural modifications. The ideas are at the conceptual stage without empirical validation. The post generated mixed community feedback, with discussion centering on feasibility and novelty relative to existing literature.",
+      "tags": [
+        "ML",
+        "AI"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-ai-cv-research-team",
+      "source": "reddit",
+      "title": "Researcher Seeking to Join AI/CV Team Targeting Publications",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1si1iyl/looking_to_join_a_team_working_on_aicv_research/",
+      "summary": "A community post from an individual seeking to join a team working on computer vision or AI research with the goal of publishing. The post outlines the author's background and areas of interest and solicits connections with active research groups. It reflects a common pattern of independent researchers seeking collaborative academic opportunities outside traditional institutional channels.",
+      "tags": [
+        "career",
+        "ML"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-deepmind-ghosting-applicants",
+      "source": "reddit",
+      "title": "Community Discussion: Does Google DeepMind Ghost Job Applicants?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1shwc5d/is_google_deepmind_known_to_ghost_applicants_d/",
+      "summary": "A Reddit thread where ML practitioners share experiences with Google DeepMind's hiring process, particularly regarding lack of follow-up communication after applications or interviews. Multiple respondents confirm experiencing extended silence without rejection notices. The discussion provides informal signal about DeepMind's recruiting practices for those navigating the application process.",
+      "tags": [
+        "career"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-ml-community-ai-assisted-writing",
+      "source": "reddit",
+      "title": "How the ML Community Views AI-Assisted Writing in Technical Discussions",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1shmx8k/how_does_the_ml_community_view_aiassisted_writing/",
+      "summary": "A community discussion surveying attitudes toward the use of AI writing tools in ML forums, papers, and peer review contexts. Respondents express a range of views from pragmatic acceptance to concern about dilution of technical discourse quality. The thread surfaces norms that are emerging but not yet codified around disclosure, acceptable use, and signal-to-noise in AI-assisted technical communication.",
+      "tags": [
+        "AI",
+        "career"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    }
+  ]
+}

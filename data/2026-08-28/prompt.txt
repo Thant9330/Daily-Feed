@@ -1,0 +1,188 @@
+You are a technical news summariser. For each item below, produce a JSON object.
+Return ONLY a valid JSON array — no markdown, no explanation, no code fences.
+
+Each object must have exactly these fields:
+{
+  "id": "source-slug (lowercase, hyphens, e.g. github-rust-lang-rust)",
+  "source": "github|hackernews|reddit",
+  "title": "clear descriptive title (keep original if already good)",
+  "url": "original url unchanged",
+  "summary": "2-3 sentence factual explanation a colleague could repeat without visiting the link",
+  "tags": ["pick 1-3 from: AI, ML, tools, web, security, systems, data, mobile, career, other"],
+  "relevance": 4,
+  "read": false,
+  "bookmarked": false
+}
+
+Rules:
+- Neutral, factual tone — no hype, no superlatives
+- Summary must be self-contained
+- relevance is 1-5 integer: 5=high technical depth + high community interest, 1=low
+- tags: only from the allowed list above
+
+Items to summarise:
+
+1. [github] tt-a1i/archify
+   URL: https://github.com/tt-a1i/archify
+   Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
+
+2. [github] freestylefly/awesome-gpt-image-2
+   URL: https://github.com/freestylefly/awesome-gpt-image-2
+   Description: Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
+
+3. [github] anthropics/claude-plugins-official
+   URL: https://github.com/anthropics/claude-plugins-official
+   Description: Official, Anthropic-managed directory of high quality Claude Code Plugins.
+
+4. [github] Alishahryar1/free-claude-code
+   URL: https://github.com/Alishahryar1/free-claude-code
+   Description: Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)
+
+5. [github] MadsLorentzen/ai-job-search
+   URL: https://github.com/MadsLorentzen/ai-job-search
+   Description: The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
+
+6. [github] AgriciDaniel/claude-obsidian
+   URL: https://github.com/AgriciDaniel/claude-obsidian
+
+7. [github] basecamp/omarchy
+   URL: https://github.com/basecamp/omarchy
+
+8. [github] rohitg00/ai-engineering-from-scratch
+   URL: https://github.com/rohitg00/ai-engineering-from-scratch
+   Description: Learn it. Build it. Ship it for others.
+
+9. [github] tinyhumansai/openhuman
+   URL: https://github.com/tinyhumansai/openhuman
+   Description: Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.
+
+10. [github] DietrichGebert/ponytail
+   URL: https://github.com/DietrichGebert/ponytail
+   Description: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+
+11. [github] anthropics/claude-plugins-community
+   URL: https://github.com/anthropics/claude-plugins-community
+   Description: Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.
+
+12. [github] ConardLi/garden-skills
+   URL: https://github.com/ConardLi/garden-skills
+
+13. [github] browser-use/browser-use
+   URL: https://github.com/browser-use/browser-use
+   Description: 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+
+14. [github] K-Dense-AI/scientific-agent-skills
+   URL: https://github.com/K-Dense-AI/scientific-agent-skills
+   Description: Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
+
+15. [github] marin-community/marin
+   URL: https://github.com/marin-community/marin
+   Description: Open-source framework for the research and development of foundation models.
+
+16. [github] VoltAgent/awesome-agent-skills
+   URL: https://github.com/VoltAgent/awesome-agent-skills
+   Description: A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
+
+17. [hackernews] Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache
+   URL: https://blog.cloudflare.com/dns-cache-memory-optimization-1111/
+
+18. [hackernews] Microduck
+   URL: https://pollen-robotics.com/microduck/
+
+19. [hackernews] Small Models Have Arrived
+   URL: https://calv.info/small-models-have-arrived
+
+20. [hackernews] 507 Mechanical Movements
+   URL: https://507movements.com/
+
+21. [hackernews] Show HN: The load-bearing vocabulary of Claude
+   URL: https://louisabraham.github.io/load-bearing/
+
+22. [hackernews] Suica, Japan's First IC Transit Card
+   URL: https://www.tokyodev.com/articles/the-story-of-suica
+
+23. [hackernews] Gemini Omni 1.1 Flash
+   URL: https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/
+
+24. [hackernews] Decompiling a Nintendo 64 game in 84 days
+   URL: https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/
+
+25. [hackernews] We found a division by zero bug in FFmpeg with a vibecoded fuzzer
+   URL: https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290
+
+26. [hackernews] Gemini-3.5-Transcribe
+   URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/
+
+27. [hackernews] Emacs 31: An unofficial guide to Markdown-ts-mode
+   URL: https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31
+
+28. [hackernews] Aphantasia Beginner's Guide
+   URL: https://aphantasia.com/guide
+
+29. [hackernews] MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training
+   URL: https://aiandeducation.mit.edu/report/
+
+30. [hackernews] Show HN: We built open OpenRouter that turns usage into a better model
+   URL: https://github.com/experientiallabs/experiential
+
+31. [hackernews] M5Stack Launches PaperMono
+   URL: https://shop.m5stack.com/blogs/news/m5stack-launches-papermono-a-compact-e-ink-development-terminal-for-connected-projects
+
+32. [hackernews] Show HN: Voronoi Go
+   URL: https://voronoigo.com/
+
+33. [hackernews] The mechanics of the Nepali flash flood
+   URL: https://www.economist.com/science-and-technology/2026/08/27/the-terrifying-mechanics-of-the-nepali-flash-flood
+
+34. [hackernews] Engineered yeast for converting plastic and biomass compounds to food additives
+   URL: https://acs.digitellinc.com/live/37/session/586399
+
+35. [hackernews] Previewing the Model Hardware Standard
+   URL: https://www.anthropic.com/news/model-hardware-standard-research-preview
+
+36. [hackernews] Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance
+   URL: https://github.com/elyosh/OpenTIE/
+
+37. [hackernews] AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab
+   URL: https://github.com/calmrocks/ai-engineer-notebooks
+
+38. [hackernews] Select * from Internet.blogposts
+   URL: https://pfrazee.leaflet.pub/3mu3p2smmis22
+
+39. [hackernews] Launch HN: Salem Robotics (YC S26) – Software for industrial inspection robots
+   URL: https://news.ycombinator.com/item?id=49466715
+
+40. [hackernews] Terminal-Bench-Science: Evaluating AI agents on scientific research workflows
+   URL: https://www.terminal-bench-science.ai/announcement
+
+41. [hackernews] Stripe said to abandon $50B pursuit of PayPal
+   URL: https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal
+
+42. [hackernews] Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal
+   URL: https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html
+
+43. [hackernews] Bild AI (YC W25) is hiring product and AI engineers
+   URL: https://www.bild.ai/jobs
+
+44. [reddit] How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache
+   URL: https://blog.cloudflare.com/dns-cache-memory-optimization-1111/
+
+45. [reddit] NeurIPS 2026 Acceptance Calculator [P]
+   URL: https://www.reddit.com/r/MachineLearning/comments/1vzzw38/neurips_2026_acceptance_calculator_p/
+
+46. [reddit] Best ML papers to pick up writing skills [D]
+   URL: https://www.reddit.com/r/MachineLearning/comments/1w075pe/best_ml_papers_to_pick_up_writing_skills_d/
+
+47. [reddit] How Jekyll Works
+   URL: https://sarans.so/articles/how_jekyll_works
+
+48. [reddit] py-evoFE: Automated Evolutionary Feature Engineering for Tabular ML in Python (Genetic Algorithms + Scikit-Learn + Polars) [P]
+   URL: https://www.reddit.com/r/MachineLearning/comments/1w0788j/pyevofe_automated_evolutionary_feature/
+
+49. [reddit] Can AI Improve Itself? RSI Might Be the Answer [R]
+   URL: https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/
+
+50. [reddit] ECCV 2026- MALMO LUND TRAVEL PASS NOT AVAILABLE? [N]
+   URL: https://www.reddit.com/r/MachineLearning/comments/1vzu8uy/eccv_2026_malmo_lund_travel_pass_not_available_n/
+
+Return only the JSON array.

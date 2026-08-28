@@ -1,0 +1,287 @@
+/* ─────────────────────────────────────────────
+   Daily Feed — reading view
+   Layered on style.css: all tokens, fonts, brand/date-picker and
+   loading/error state styles come from there. This file only adds the
+   article layout.
+   ───────────────────────────────────────────── */
+
+.read-body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ──────────────────────────────────── */
+/* Same dark bar as the dashboard, so .brand-* and #datePicker apply as-is. */
+
+.read-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--header-bg);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+.read-header-inner {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.read-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.read-link {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: .04em;
+  color: var(--header-text-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: var(--transition);
+}
+
+.read-link:hover { color: var(--header-text); }
+
+/* ── Jump nav ────────────────────────────────── */
+
+/* Full-bleed band, content aligned to the article column — same as the header. */
+.jump-nav {
+  position: sticky;
+  top: 56px;
+  z-index: 15;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.jump-nav-inner {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 8px 24px;
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+}
+
+.jump-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 11px;
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: var(--transition);
+}
+
+.jump-link:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+/* ── Article ─────────────────────────────────── */
+
+.read-main {
+  flex: 1;
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.read-article { padding: 8px 0 48px; }
+
+/* Shown when the feed is provisional — titles and links, summaries pending. */
+.read-note {
+  margin-top: 24px;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--hn);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--text-2);
+  overflow-wrap: anywhere;
+}
+
+/* Provisional feeds have no tags and only a default relevance — hide the row
+   rather than show a rating nobody made. */
+.is-provisional .read-item-meta { display: none; }
+
+.read-section { margin-top: 48px; }
+.read-section:first-child,
+.read-note + .read-section { margin-top: 32px; }
+
+.read-section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.read-section-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--text-3);
+  align-self: center;
+}
+
+.read-section-title {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.read-section-count {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-3);
+  margin-left: auto;
+}
+
+/* Source colours, from style.css tokens */
+.src-github .read-section-dot { background: var(--github); }
+.src-hn     .read-section-dot { background: var(--hn); }
+.src-reddit .read-section-dot { background: var(--reddit); }
+
+.src-github .read-item:hover { border-left-color: var(--github); }
+.src-hn     .read-item:hover { border-left-color: var(--hn); }
+.src-reddit .read-item:hover { border-left-color: var(--reddit); }
+
+/* ── Item ────────────────────────────────────── */
+
+.read-item {
+  padding: 20px 0 20px 16px;
+  border-left: 2px solid transparent;
+  border-bottom: 1px solid var(--border);
+  transition: var(--transition);
+}
+
+.read-item:last-child { border-bottom: none; }
+
+.read-item-title {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -.01em;
+  margin-bottom: 5px;
+}
+
+.read-item-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.read-item-title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.read-item-url {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-3);
+  text-decoration: none;
+  margin-bottom: 10px;
+  overflow-wrap: anywhere;
+  transition: var(--transition);
+}
+
+.read-item-url:hover { color: var(--text-2); }
+
+.read-item-summary {
+  font-size: 15px;
+  line-height: 1.62;
+  color: var(--text-2);
+  max-width: 68ch;
+}
+
+.read-item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.read-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--text-2);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 2px 7px;
+}
+
+.read-relevance {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: .04em;
+  padding: 2px 7px;
+  border-radius: 3px;
+  margin-left: auto;
+  color: var(--bg);
+}
+
+.rel-low  { background: var(--relevance-low); }
+.rel-mid  { background: var(--relevance-mid); }
+.rel-good { background: var(--relevance-good); }
+.rel-high { background: var(--relevance-high); }
+
+/* ── Footer ──────────────────────────────────── */
+
+.read-footer {
+  border-top: 1px solid var(--border);
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-3);
+}
+
+.read-footer .read-link { color: var(--text-3); }
+.read-footer .read-link:hover { color: var(--text); }
+
+/* ── Small screens ───────────────────────────── */
+
+@media (max-width: 640px) {
+  .read-header-inner,
+  .read-main { padding-left: 16px; padding-right: 16px; }
+
+  .read-header-inner { height: auto; padding-top: 10px; padding-bottom: 10px; flex-wrap: wrap; }
+  .jump-nav { top: 0; position: static; }
+  .jump-nav-inner { padding-left: 16px; padding-right: 16px; }
+  .read-item-title { font-size: 16px; }
+  .read-item-summary { font-size: 14.5px; }
+  .read-relevance { margin-left: 0; }
+}

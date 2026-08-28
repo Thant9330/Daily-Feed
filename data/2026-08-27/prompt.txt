@@ -1,0 +1,218 @@
+You are a technical news summariser. For each item below, produce a JSON object.
+Return ONLY a valid JSON array — no markdown, no explanation, no code fences.
+
+Each object must have exactly these fields:
+{
+  "id": "source-slug (lowercase, hyphens, e.g. github-rust-lang-rust)",
+  "source": "github|hackernews|reddit",
+  "title": "clear descriptive title (keep original if already good)",
+  "url": "original url unchanged",
+  "summary": "2-3 sentence factual explanation a colleague could repeat without visiting the link",
+  "tags": ["pick 1-3 from: AI, ML, tools, web, security, systems, data, mobile, career, other"],
+  "relevance": 4,
+  "read": false,
+  "bookmarked": false
+}
+
+Rules:
+- Neutral, factual tone — no hype, no superlatives
+- Summary must be self-contained
+- relevance is 1-5 integer: 5=high technical depth + high community interest, 1=low
+- tags: only from the allowed list above
+
+Items to summarise:
+
+1. [github] freestylefly/awesome-gpt-image-2
+   URL: https://github.com/freestylefly/awesome-gpt-image-2
+   Description: Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
+
+2. [github] anthropics/claude-plugins-community
+   URL: https://github.com/anthropics/claude-plugins-community
+   Description: Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.
+
+3. [github] MadsLorentzen/ai-job-search
+   URL: https://github.com/MadsLorentzen/ai-job-search
+   Description: The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
+
+4. [github] apache/maka
+   URL: https://github.com/apache/maka
+   Description: Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.
+
+5. [github] TauricResearch/TradingAgents
+   URL: https://github.com/TauricResearch/TradingAgents
+   Description: TradingAgents: Multi-Agents LLM Financial Trading Framework
+
+6. [github] AgriciDaniel/claude-obsidian
+   URL: https://github.com/AgriciDaniel/claude-obsidian
+
+7. [github] rohitg00/ai-engineering-from-scratch
+   URL: https://github.com/rohitg00/ai-engineering-from-scratch
+   Description: Learn it. Build it. Ship it for others.
+
+8. [github] tinyhumansai/openhuman
+   URL: https://github.com/tinyhumansai/openhuman
+   Description: Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.
+
+9. [github] basecamp/omarchy
+   URL: https://github.com/basecamp/omarchy
+
+10. [github] Shubhamsaboo/awesome-llm-apps
+   URL: https://github.com/Shubhamsaboo/awesome-llm-apps
+   Description: 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+
+11. [github] multica-ai/andrej-karpathy-skills
+   URL: https://github.com/multica-ai/andrej-karpathy-skills
+
+12. [github] openai/codex
+   URL: https://github.com/openai/codex
+   Description: Lightweight coding agent that runs in your terminal
+
+13. [github] marin-community/marin
+   URL: https://github.com/marin-community/marin
+   Description: Open-source framework for the research and development of foundation models.
+
+14. [github] DietrichGebert/ponytail
+   URL: https://github.com/DietrichGebert/ponytail
+   Description: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+
+15. [github] anthropics/claude-plugins-official
+   URL: https://github.com/anthropics/claude-plugins-official
+   Description: Official, Anthropic-managed directory of high quality Claude Code Plugins.
+
+16. [github] asciimoo/hister
+   URL: https://github.com/asciimoo/hister
+   Description: Your own search engine
+
+17. [hackernews] AWS Acquires DuckLabs
+   URL: https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws
+
+18. [hackernews] GLM-5.3-Flash
+   URL: https://z.ai/blog/glm-5.3-flash
+
+19. [hackernews] Tim Curry has died
+   URL: https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film
+
+20. [hackernews] Nvidia agrees to acquire Hugging Face for $13B
+   URL: https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8
+
+21. [hackernews] Tailcat – Like netcat, but over Tailscale’s data plane
+   URL: https://github.com/tailscale/tailcat
+
+22. [hackernews] U.S. State Department pauses immigrant visa applications
+   URL: https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23
+
+23. [hackernews] Nebula Sans
+   URL: https://www.nebulasans.com
+
+24. [hackernews] Twitter Viewer – View Twitter Without Account
+   URL: https://twitterwebviewer.com/
+
+25. [hackernews] An ongoing 3D-printer AGPL violation
+   URL: https://lwn.net/SubscriberLink/1089390/46116614cc74b814/
+
+26. [hackernews] Taylor Farms: How One Company's Reach Became a National Risk
+   URL: https://farmaction.us/taylorfarmsreport/
+
+27. [hackernews] CEO fired developers to make room for AI. Developers create open source AI CEO
+   URL: https://github.com/SenteLabsAI/OpenExecutive
+
+28. [hackernews] Mechanical Turk shutting down September 30
+   URL: https://www.mturk.com/
+
+29. [hackernews] CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela
+   URL: https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/
+
+30. [hackernews] The Hugging Face incident and the road ahead
+   URL: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+
+31. [hackernews] GitHub Outage Tracker: Is GitHub Cooked?
+   URL: https://isgithubcooked.com/
+
+32. [hackernews] FDA approves first in class targeted therapy for metastatic pancreatic cancer
+   URL: https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer
+
+33. [hackernews] Asahi Linux Progress Report: Linux 7.2
+   URL: https://asahilinux.org/2026/08/progress-report-7-2/
+
+34. [hackernews] Zohran and the Short Link
+   URL: https://iamwillwang.com/notes/zohran-and-the-short-link/
+
+35. [hackernews] Actinide is first startup to produce high-assay low-enriched uranium (HALEU)
+   URL: https://www.actinideinc.com/press/actinide-becomes-first-startup-to-ever-enrich-natural-uranium-to-produce-haleu
+
+36. [hackernews] Stripe acquires Clerky
+   URL: https://www.clerky.com/blog/clerky-is-joining-stripe
+
+37. [hackernews] Serve Markdown to AI Agents with Accept Headers
+   URL: https://acceptmarkdown.com/
+
+38. [hackernews] Worst-case glacial lake flood scenarios in a transboundary Himalayan basin 2022
+   URL: https://nhess.copernicus.org/articles/22/3765/2022/nhess-22-3765-2022.html
+
+39. [hackernews] IBM Unveils Next Generation Dual-Architecture Processor for IBM Z and LinuxONE
+   URL: https://newsroom.ibm.com/2026-08-24-ibm-unveils-next-generation-dual-architecture-processor-for-ibm-z-and-linuxone
+
+40. [hackernews] Mold: A Massively Parallel Linker
+   URL: https://arxiv.org/abs/2608.23228
+
+41. [hackernews] Kusama Yayoi Dies at 97
+   URL: https://news.jp/i/1465528042000662661
+
+42. [hackernews] The Harness Is the Thing
+   URL: https://scott-fryxell.github.io/blog/the-harness-is-the-thing/
+
+43. [hackernews] Launch HN: Risklytics (YC S26) – Insurance brokerage for frontier tech companies
+   URL: https://www.risklytics.ai/
+
+44. [hackernews] Laion Big Video Dataset
+   URL: https://projects.laion.ai/bvd/
+
+45. [hackernews] Getting video models to learn better, faster
+   URL: https://www.linum.ai/field-notes/data-filtering-gen-video
+
+46. [hackernews] Humanity has the debate about AI consciousness backwards
+   URL: https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards
+
+47. [reddit] GitHub confirms Actions outage caused by database issue
+   URL: https://www.githubstatus.com/incidents/y1t7p9fzrlj2
+
+48. [reddit] Casey Muratori – The Root of The Root of All Evil – BSC 2026
+   URL: https://www.youtube.com/watch?v=hpj6r6CjJf8
+
+49. [reddit] mold: A Massively Parallel Linker
+   URL: https://arxiv.org/abs/2608.23228
+
+50. [reddit] The Depths of JavaScript: Minesweeper in 247 Bytes
+   URL: https://yui.dev/blog/minesweeper-in-247-bytes
+
+51. [reddit] We recovered 575k crop labels from a decade of manual Photoshop work to automate book digitization - more data, ResNet-50, and higher resolution all failed; ten operator clicks per book beat them [P]
+   URL: https://www.reddit.com/r/MachineLearning/comments/1vz2ojw/we_recovered_575k_crop_labels_from_a_decade_of/
+
+52. [reddit] DuckLabs to Join AWS, Projects to Remain Open Source
+   URL: https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws
+
+53. [reddit] How to drive your frontend from the backend
+   URL: https://packagemain.tech/p/golang-datastar
+
+54. [reddit] Problem with concurrent linter fixes
+   URL: https://jfmengels.net/concurrent-linter-fixes/
+
+55. [reddit] SQLite in Production with Built-In Litestream Replication
+   URL: https://openrun.dev/blog/litestream/
+
+56. [reddit] Flat vs segmented memory -- it's recursive
+   URL: https://www.humprog.org/~stephen/blog/2026/08/25/#flat-vs-segmented
+
+57. [reddit] A dataset with 52 Text to image model evaluation [P]
+   URL: https://www.reddit.com/r/MachineLearning/comments/1vz9x9c/a_dataset_with_52_text_to_image_model_evaluation_p/
+
+58. [reddit] Millwright — experimenting with an end-to-end machine learning framework in Rust [P]
+   URL: https://www.reddit.com/r/MachineLearning/comments/1vyq7m9/millwright_experimenting_with_an_endtoend_machine/
+
+59. [reddit] Anders Hejlsberg - Yes, Typescript can be as fast as Rust
+   URL: https://www.youtube.com/watch?v=cywK3XYYJ2o
+
+60. [reddit] Find Git Commits by Commit Message Text
+   URL: https://hamvocke.com/blog/git-revisions-by-text/
+
+Return only the JSON array.

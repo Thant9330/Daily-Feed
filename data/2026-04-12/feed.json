@@ -1,0 +1,539 @@
+{
+  "date": "2026-04-12",
+  "items": [
+    {
+      "id": "github-microsoft-markitdown",
+      "source": "github",
+      "title": "microsoft/markitdown: Python tool for converting files and office documents to Markdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "summary": "markitdown is a Python library by Microsoft that converts a wide range of file formats—including Word, Excel, PowerPoint, PDF, and HTML—into Markdown text. It is designed to make document content accessible for LLM pipelines and text processing workflows. The library can be used as a CLI tool or imported as a Python module.",
+      "tags": [
+        "tools",
+        "AI"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-coleam00-archon",
+      "source": "github",
+      "title": "coleam00/Archon: Open-source harness builder for AI coding agents",
+      "url": "https://github.com/coleam00/Archon",
+      "summary": "Archon is an open-source framework that wraps AI coding agents in structured harnesses to make their outputs deterministic and repeatable across runs. It aims to give developers greater control over agent behavior by defining explicit scaffolding around code generation tasks. The project positions itself as a foundation for building production-grade AI coding workflows.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-nousresearch-hermes-agent",
+      "source": "github",
+      "title": "NousResearch/hermes-agent: Extensible AI agent framework from NousResearch",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "hermes-agent is an AI agent framework from NousResearch, the team behind the Hermes family of fine-tuned LLMs. The project appears to be an agent runtime built around their models, designed to grow in capability alongside model improvements. Specific tooling and integration details are available in the repository.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-rowboatlabs-rowboat",
+      "source": "github",
+      "title": "rowboatlabs/rowboat: Open-source AI coworker with persistent memory",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "summary": "Rowboat is an open-source AI assistant designed to act as a persistent coworker, retaining memory across sessions to maintain context over time. It targets team productivity use cases where continuity of context matters. The project is self-hostable and positions itself as an alternative to commercial AI assistant products.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-multica-ai-multica",
+      "source": "github",
+      "title": "multica-ai/multica: Open-source managed agents platform for task delegation",
+      "url": "https://github.com/multica-ai/multica",
+      "summary": "Multica is an open-source platform for deploying and managing coding agents as collaborative team members, supporting task assignment, progress tracking, and skill accumulation. It targets teams that want to integrate AI agents into existing engineering workflows without building orchestration infrastructure from scratch. The platform emphasizes compounding agent capabilities over repeated use.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-forrestchang-andrej-karpathy-skills",
+      "source": "github",
+      "title": "forrestchang/andrej-karpathy-skills: Curated skills and techniques from Andrej Karpathy",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "summary": "This repository appears to be a community-curated collection of technical insights, techniques, and mental models shared by Andrej Karpathy, known for his work on deep learning and his educational content. It likely aggregates material from his talks, blog posts, and social media. No formal description is provided in the repository.",
+      "tags": [
+        "ML",
+        "career"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-shiyu-coder-kronos",
+      "source": "github",
+      "title": "shiyu-coder/Kronos: Foundation model for financial market language",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "summary": "Kronos is a foundation model trained on financial market data, framing market signals and time series as a structured language that an LLM-style architecture can process. It targets quantitative finance applications such as market prediction and signal interpretation. The project is research-oriented and released with associated model weights or training code.",
+      "tags": [
+        "ML",
+        "data"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-hkuds-deeptutor",
+      "source": "github",
+      "title": "HKUDS/DeepTutor: AI-powered tutoring system from HKUDS lab",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "summary": "DeepTutor is an AI tutoring system developed by the HKUDS research lab, designed to provide interactive, personalized educational guidance. The system likely leverages LLMs to explain concepts and respond to learner questions in an adaptive manner. No detailed description was provided in the listing.",
+      "tags": [
+        "AI",
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-opendataloader-pdf",
+      "source": "github",
+      "title": "opendataloader-project/opendataloader-pdf: Open-source PDF parser for AI-ready data extraction",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "summary": "opendataloader-pdf is an open-source PDF parser designed to extract structured, AI-ready data from PDF documents while also improving accessibility. It automates the conversion of PDF content into formats suitable for downstream ML and data pipelines. The project is part of the broader OpenDataLoader initiative.",
+      "tags": [
+        "tools",
+        "AI",
+        "data"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-obra-superpowers",
+      "source": "github",
+      "title": "obra/superpowers: Developer productivity tools collection",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "Superpowers is a personal toolkit repository by Jesse Vincent (obra), aimed at enhancing developer productivity through custom scripts and shell utilities. The project has no formal description in the listing, but based on the author's background it likely includes CLI tools and workflow automation. Details are available in the repository itself.",
+      "tags": [
+        "tools",
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-jqlang-jq",
+      "source": "github",
+      "title": "jqlang/jq: Command-line JSON processor",
+      "url": "https://github.com/jqlang/jq",
+      "summary": "jq is a widely used command-line tool for parsing, filtering, and transforming JSON data using a lightweight expression language. It is commonly used in shell scripts and data pipelines to extract and reshape JSON without requiring a full programming language. The project is maintained under the jqlang organization.",
+      "tags": [
+        "tools",
+        "data"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-shanraisshan-claude-code-best-practice",
+      "source": "github",
+      "title": "shanraisshan/claude-code-best-practice: Community best practices for Claude Code",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "summary": "This repository collects community-contributed best practices for using Claude Code, Anthropic's AI coding assistant. It appears to be a reference guide for developers adopting Claude Code in their workflows, covering prompting strategies and usage patterns. The informal description suggests it is an evolving community resource rather than official documentation.",
+      "tags": [
+        "AI",
+        "tools",
+        "career"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-small-models-mythos-vulnerabilities",
+      "source": "hackernews",
+      "title": "Small models also found the vulnerabilities that Mythos found in AI cybersecurity benchmarks",
+      "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
+      "summary": "This post examines whether the cybersecurity vulnerabilities discovered by the Mythos AI system require frontier-scale models, finding that smaller models can replicate many of the same findings. The analysis suggests the 'jagged frontier' of AI capability applies in security research: certain tasks don't scale linearly with model size. This has implications for both the cost of AI-assisted vulnerability research and the threat model for autonomous exploit discovery.",
+      "tags": [
+        "security",
+        "AI"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-pardonned-us-pardons-database",
+      "source": "hackernews",
+      "title": "Show HN: Pardonned.com – A searchable database of US Presidential pardons",
+      "url": "https://news.ycombinator.com/item?id=47727960",
+      "summary": "Pardonned.com is a public tool that aggregates and makes searchable the historical record of US Presidential pardons. It allows users to look up pardon recipients, dates, and offenses in a structured format. The project addresses the lack of a centralized, accessible pardon database in official government sources.",
+      "tags": [
+        "data",
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-south-korea-universal-mobile-data",
+      "source": "hackernews",
+      "title": "South Korea introduces universal basic mobile data access",
+      "url": "https://www.theregister.com/2026/04/10/south_korea_data_access_universal/",
+      "summary": "South Korea has introduced a policy providing all citizens with a baseline allocation of free mobile data, framing internet connectivity as a public utility. The initiative is part of a broader digital inclusion effort and positions South Korea among early adopters of universal broadband access guarantees. Implementation details including data caps and carrier obligations are covered in the article.",
+      "tags": [
+        "other",
+        "mobile"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-cirrus-labs-joins-openai",
+      "source": "hackernews",
+      "title": "Cirrus Labs to join OpenAI",
+      "url": "https://cirruslabs.org/",
+      "summary": "Cirrus Labs, known for their CI/CD infrastructure tooling, announced they are joining OpenAI. The acquisition likely brings their expertise in cloud execution environments and task orchestration into OpenAI's infrastructure or agent runtime teams. Further details on the terms and scope of the deal are expected.",
+      "tags": [
+        "tools",
+        "AI",
+        "career"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-aphyr-future-of-lies-part5",
+      "source": "hackernews",
+      "title": "The future of everything is lies – Part 5: Annoyances (aphyr)",
+      "url": "https://aphyr.com/posts/415-the-future-of-everything-is-lies-i-guess-annoyances",
+      "summary": "Kyle Kingsbury (aphyr) continues his series examining the pervasive spread of misinformation and low-quality content in technical and general media, focusing in this installment on everyday annoyances caused by AI-generated and misleading content. The post reflects on how normalization of inaccuracy degrades trust in information ecosystems. It is opinion writing from a well-known distributed systems engineer.",
+      "tags": [
+        "AI",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-berkeley-broke-ai-benchmarks",
+      "source": "hackernews",
+      "title": "How We Broke Top AI Agent Benchmarks – And What Comes Next",
+      "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+      "summary": "Researchers at UC Berkeley describe how they identified and exploited weaknesses in leading AI agent benchmarks, demonstrating that high scores can be achieved through shortcuts that don't reflect genuine agent capability. The post outlines the specific failure modes found and proposes criteria for more trustworthy benchmark design. This is a follow-up to prior work on benchmark integrity in the agent evaluation space.",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "relevance": 5,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-advanced-mac-substitute",
+      "source": "hackernews",
+      "title": "Advanced Mac Substitute: API-level reimplementation of 1980s Mac OS",
+      "url": "https://www.v68k.org/advanced-mac-substitute/",
+      "summary": "Advanced Mac Substitute is a project that reimplements the Macintosh Toolbox API from the 1980s at the API level, allowing classic Mac applications to run on modern hardware without a full hardware emulator. Unlike ROM-based emulation, it reimplements the OS interfaces so original binaries can execute natively against the new implementation. The project targets preservation of early Macintosh software.",
+      "tags": [
+        "systems",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-apple-silicon-vm-limit",
+      "source": "hackernews",
+      "title": "Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)",
+      "url": "https://khronokernel.com/macos/2023/08/08/AS-VM.html",
+      "summary": "This post investigates the architectural reason Apple Silicon Macs enforce a limit of two simultaneously running VMs and documents techniques to work around it. The author explores the underlying hardware virtualization constraints and how hypervisor entitlements and configuration changes affect the limit. It is a technical deep-dive relevant to developers running multiple VMs on M-series hardware.",
+      "tags": [
+        "systems",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-fluorographane-atomic-memory",
+      "source": "hackernews",
+      "title": "447 TB/cm² at zero retention energy: atomic-scale memory on fluorographane",
+      "url": "https://zenodo.org/records/19513269",
+      "summary": "This preprint reports a theoretical storage density of 447 terabytes per square centimeter using atomic-scale bit encoding on fluorographane, a hydrogen- and fluorine-functionalized graphene derivative, with zero energy required to retain stored data. The work is computational/theoretical and proposes a mechanism where individual atoms act as bistable memory elements. If experimentally validated, the approach would represent a several-orders-of-magnitude improvement over current storage technologies.",
+      "tags": [
+        "systems",
+        "data"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-dark-castle",
+      "source": "hackernews",
+      "title": "Dark Castle: Classic 1986 Mac game preservation site",
+      "url": "https://darkcastle.co.uk/",
+      "summary": "This site is dedicated to Dark Castle, a 1986 action game originally developed for the Apple Macintosh, covering its history, ports, and legacy. The game was notable for its use of sampled sound and fluid animation on early Mac hardware. The site serves as a preservation and fan reference resource.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-iron-core-problem-built-industry",
+      "source": "hackernews",
+      "title": "The Problem That Built an Industry: Iron core memory history",
+      "url": "https://ajitem.com/blog/iron-core-part-1-the-problem-that-built-an-industry/",
+      "summary": "This post begins a series on the history of magnetic core memory, tracing how a specific engineering problem in early computing led to the development of an entire industry around ferrite core storage. It covers the technical and commercial circumstances that made core memory the dominant RAM technology for two decades. The writing is historically grounded and technically detailed.",
+      "tags": [
+        "systems",
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-postgres-queue-health",
+      "source": "hackernews",
+      "title": "Keeping a Postgres Queue Healthy",
+      "url": "https://planetscale.com/blog/keeping-a-postgres-queue-healthy",
+      "summary": "This post by PlanetScale covers operational practices for maintaining a job queue implemented on top of PostgreSQL, addressing common failure modes like table bloat, lock contention, and dead-letter accumulation. It provides concrete configuration and query strategies for long-running production queue tables. The guidance is practical and applicable to teams using Postgres as a lightweight task queue.",
+      "tags": [
+        "data",
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-git-diff-driver",
+      "source": "hackernews",
+      "title": "How to build a Git diff driver",
+      "url": "https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/",
+      "summary": "This tutorial explains how to implement a custom Git diff driver, which allows developers to override how Git displays diffs for specific file types. The author walks through the configuration steps in .gitattributes and .gitconfig and demonstrates practical use cases such as diffing binary or structured formats. The post fills a gap in the official Git documentation on this feature.",
+      "tags": [
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-phone-trips",
+      "source": "hackernews",
+      "title": "Phone Trips: Archive of phone phreak audio recordings",
+      "url": "http://www.wideweb.com/phonetrips/",
+      "summary": "Phone Trips is an archive of recordings and documentation from the phone phreaking era, capturing audio of telephone network exploration activities from past decades. It serves as a historical artifact of early hacker culture and telecommunications experimentation. The site is primarily of interest to those interested in the history of hacking and telecom infrastructure.",
+      "tags": [
+        "security",
+        "other"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-apl-source-code-2012",
+      "source": "hackernews",
+      "title": "The APL programming language source code (2012 release)",
+      "url": "https://computerhistory.org/blog/the-apl-programming-language-source-code/",
+      "summary": "The Computer History Museum released the original source code of APL (A Programming Language), the influential array-processing language developed by Ken Iverson at IBM in the 1960s. The release includes commentary on APL's design philosophy and its impact on subsequent array-oriented and functional languages. This is a significant software preservation milestone.",
+      "tags": [
+        "other",
+        "systems"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-hubble-tension-confirmed",
+      "source": "hackernews",
+      "title": "New synthesis of astronomical measurements shows Hubble tension is real",
+      "url": "https://noirlab.edu/public/news/noirlab2611/",
+      "summary": "A new analysis combining multiple independent astronomical measurement techniques confirms that the Hubble tension—the discrepancy between early- and late-universe measurements of the universe's expansion rate—is statistically robust and unlikely to be a systematic error. The findings increase pressure on the standard cosmological model (ΛCDM) to account for the discrepancy. The work is published by NOIRLab and draws on data from multiple observatories.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-ai-job-loss-tracker",
+      "source": "hackernews",
+      "title": "AI Job Loss Tracker: Database of AI-attributed layoffs",
+      "url": "https://jobloss.ai/",
+      "summary": "jobloss.ai is a publicly accessible database tracking layoffs and job eliminations that companies have attributed to AI automation. It aggregates news reports and company announcements to provide a searchable record of AI-related workforce reductions by company, role, and date. The site aims to quantify and make visible the labor market impact of AI adoption.",
+      "tags": [
+        "AI",
+        "career",
+        "data"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-20-years-aws-never-not-my-job",
+      "source": "reddit",
+      "title": "20 Years on AWS and Never Not My Job",
+      "url": "https://www.daemonology.net/blog/2026-04-11-20-years-on-AWS-and-never-not-my-job.html",
+      "summary": "Colin Percival, founder of Tarsnap, reflects on two decades of running production infrastructure on AWS, arguing that cloud infrastructure ownership remains a deep technical responsibility regardless of managed service abstractions. The post covers lessons learned about operational ownership culture and the dangers of assuming the cloud provider handles reliability. It is a first-person perspective from a long-tenured AWS practitioner.",
+      "tags": [
+        "systems",
+        "career"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-visual-explain-query-plans",
+      "source": "reddit",
+      "title": "Building a Visual EXPLAIN to understand database query plans faster",
+      "url": "https://tabularis.dev/blog/visual-explain-query-plan-analysis",
+      "summary": "This post describes building a visual interface for database EXPLAIN output, rendering query execution plans as interactive diagrams to make bottlenecks easier to identify than reading raw text output. The author covers the parsing challenges of EXPLAIN formats across different databases and the design decisions behind the visualization. It is aimed at developers and DBAs who regularly debug slow queries.",
+      "tags": [
+        "data",
+        "tools",
+        "web"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-privacy-first-apps-missing",
+      "source": "reddit",
+      "title": "What is missing when building privacy-first apps?",
+      "url": "https://stoffelmpc.com/stoffel-blog/mpc-data-in-use",
+      "summary": "This post discusses gaps in the current tooling and infrastructure for building applications that keep data private even during computation, focusing on multi-party computation (MPC) as a technical approach. The author argues that developer-friendly MPC libraries and standardized APIs are underdeveloped compared to encryption-at-rest and in-transit solutions. It frames privacy-preserving computation as the missing layer in the modern privacy stack.",
+      "tags": [
+        "security",
+        "web"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-injecting-runtime-behavior-without-modifying-source",
+      "source": "reddit",
+      "title": "Injecting runtime behavior into existing code without modifying source",
+      "url": "https://youtu.be/n1hGDWLoEPw",
+      "summary": "This video demonstrates techniques for injecting new behavior into running code at runtime without altering the original source files, covering approaches such as monkey-patching, bytecode manipulation, and dynamic proxies. The content is relevant to debugging, instrumentation, and extending legacy codebases. Specific language and tooling context are available in the linked video.",
+      "tags": [
+        "tools",
+        "systems"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-defense-github-poor-uptime",
+      "source": "reddit",
+      "title": "In defense of GitHub's poor uptime",
+      "url": "https://evanhahn.com/in-defense-of-githubs-poor-uptime/",
+      "summary": "This post argues that GitHub's occasional downtime is an acceptable trade-off given the complexity and scale of the platform, and that criticisms of its reliability often underestimate how difficult it is to run a globally distributed version control service. The author draws on comparisons with other critical infrastructure to contextualize uptime expectations. It is an opinion piece aimed at software developers.",
+      "tags": [
+        "systems",
+        "career"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-live-ai-video-generation-category",
+      "source": "reddit",
+      "title": "Is 'live AI video generation' a meaningful technical category or just a marketing term?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/",
+      "summary": "This r/MachineLearning discussion examines whether 'live AI video generation'—producing video frames in real time from a model—represents a technically distinct capability or is primarily a marketing label applied to various latency-optimized video synthesis systems. Commenters debate the hardware constraints, model architecture requirements, and latency thresholds that would define the category. The thread reflects broader uncertainty about how to classify fast generative video systems.",
+      "tags": [
+        "ML",
+        "AI"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-flashattention-pytorch-implementations",
+      "source": "reddit",
+      "title": "FlashAttention FA1–FA4 in PyTorch: Educational implementations focused on algorithmic differences",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/",
+      "summary": "This r/MachineLearning post shares a set of educational PyTorch implementations covering the algorithmic evolution from FlashAttention v1 through v4, with each version annotated to highlight what changed and why. The implementations prioritize clarity over performance to make the tiling, recomputation, and memory layout decisions accessible to practitioners. It is a useful reference for understanding the optimization progression in modern attention computation.",
+      "tags": [
+        "ML",
+        "AI"
+      ],
+      "relevance": 5,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-icml-post-rebuttal-scores",
+      "source": "reddit",
+      "title": "Post Rebuttal ICML Average Scores Discussion",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sitqzu/post_rebuttal_icml_average_scores_d/",
+      "summary": "This r/MachineLearning thread collects and discusses reported post-rebuttal reviewer scores from the ICML 2026 submission cycle, giving authors a sense of where their scores stand relative to the community. Participants share anonymized score distributions and discuss patterns in how rebuttals affected outcomes. The discussion is primarily relevant to researchers with active ICML submissions.",
+      "tags": [
+        "ML",
+        "career"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-phd-masters-computational-cognitive-science",
+      "source": "reddit",
+      "title": "PhD or Masters for Computational Cognitive Science?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sil6fo/phd_or_masters_for_computational_cognitive/",
+      "summary": "This r/MachineLearning thread discusses the trade-offs between pursuing a PhD versus a Master's degree for someone interested in computational cognitive science, covering funding, research opportunities, and career trajectories. Respondents share perspectives on how the field sits at the intersection of ML and cognitive science and which degree path better serves different goals. The discussion is primarily career-guidance oriented.",
+      "tags": [
+        "ML",
+        "career"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    }
+  ]
+}

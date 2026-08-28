@@ -1,0 +1,864 @@
+{
+  "date": "2026-04-06",
+  "items": [
+    {
+      "id": "github-google-ai-edge-gallery",
+      "source": "github",
+      "title": "google-ai-edge/gallery: On-device ML/GenAI showcase app",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "summary": "A gallery application from Google that demonstrates on-device machine learning and generative AI use cases, allowing users to run models locally without cloud inference. It serves as both a showcase and a hands-on testing environment for edge ML capabilities. Targets developers exploring local model deployment on mobile and embedded devices.",
+      "tags": [
+        "AI",
+        "ML",
+        "mobile"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-blaizzy-mlx-vlm",
+      "source": "github",
+      "title": "Blaizzy/mlx-vlm: Vision Language Model inference and fine-tuning on Mac via MLX",
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "summary": "MLX-VLM is a Python package that enables inference and fine-tuning of Vision Language Models on Apple Silicon Macs using Apple's MLX framework. It targets developers who want to run multimodal models locally without cloud dependencies. Supports a range of VLMs and leverages MLX's hardware-optimized execution for efficiency.",
+      "tags": [
+        "ML",
+        "AI",
+        "tools"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-siddharthvaddem-openscreen",
+      "source": "github",
+      "title": "siddharthvaddem/openscreen: Open-source, free alternative to Screen Studio for demos",
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "summary": "OpenScreen is an open-source screen recording and demo creation tool positioned as a free alternative to Screen Studio. It has no subscription fees, no watermarks, and is licensed for commercial use. Targets developers and designers who need polished screen demos without paid tooling.",
+      "tags": [
+        "tools",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-block-goose",
+      "source": "github",
+      "title": "block/goose: Open-source extensible AI agent for code execution and editing",
+      "url": "https://github.com/block/goose",
+      "summary": "Goose is an open-source AI agent from Block that goes beyond code completion to perform installation, execution, editing, and testing tasks autonomously. It is designed to be extensible and works with any LLM backend. Targets developers who want an agentic coding assistant they can self-host and customize.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-onyx-dot-app-onyx",
+      "source": "github",
+      "title": "onyx-dot-app/onyx: Open-source AI chat platform compatible with any LLM",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "summary": "Onyx is an open-source AI platform providing advanced chat features that integrate with any large language model. It offers features typical of enterprise AI assistants such as document search and knowledge management. Intended as a self-hostable alternative to proprietary AI chat platforms.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-badlogic-pi-mono",
+      "source": "github",
+      "title": "badlogic/pi-mono",
+      "url": "https://github.com/badlogic/pi-mono",
+      "summary": "A GitHub repository by badlogic with no description provided at time of indexing. No further metadata is available to characterize its purpose or target audience. Users should visit the repository directly for documentation and context.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-dmtrkovalenko-fff-nvim",
+      "source": "github",
+      "title": "dmtrKovalenko/fff.nvim: High-speed file search toolkit for Neovim and AI agents",
+      "url": "https://github.com/dmtrKovalenko/fff.nvim",
+      "summary": "fff.nvim is a file search toolkit claiming high speed and accuracy, with integrations targeting AI agents, Neovim, and native bindings for Rust, C, and Node.js. It is designed to handle file traversal efficiently in editor and agent contexts. The project focuses on low-latency file discovery as a core primitive.",
+      "tags": [
+        "tools",
+        "AI"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-google-ai-edge-litert-lm",
+      "source": "github",
+      "title": "google-ai-edge/LiteRT-LM",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "summary": "LiteRT-LM is a Google project under the AI Edge umbrella, likely focused on running language models via the LiteRT (formerly TensorFlow Lite) runtime for on-device inference. No description was provided at indexing time. Users should refer to the repository README for current scope and supported models.",
+      "tags": [
+        "AI",
+        "ML",
+        "mobile"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-telegramdesktop-tdesktop",
+      "source": "github",
+      "title": "telegramdesktop/tdesktop: Telegram Desktop messaging app",
+      "url": "https://github.com/telegramdesktop/tdesktop",
+      "summary": "The official open-source repository for the Telegram Desktop client, a cross-platform messaging application. The codebase is written primarily in C++ and serves as the reference implementation for the desktop platform. It is a large, actively maintained project with significant community interest.",
+      "tags": [
+        "systems",
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "github-freecodecamp-freecodecamp",
+      "source": "github",
+      "title": "freeCodeCamp/freeCodeCamp: Free coding education platform",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "summary": "freeCodeCamp is one of the most-starred open-source repositories on GitHub, providing a free, self-paced web development curriculum with interactive coding challenges. It covers topics from HTML/CSS to data structures, algorithms, and machine learning. The project is maintained by a nonprofit and used by millions of learners worldwide.",
+      "tags": [
+        "web",
+        "career"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-eight-years-building-with-ai",
+      "source": "hackernews",
+      "title": "Eight years of wanting, three months of building with AI",
+      "url": "https://lalitm.com/post/building-syntaqlite-ai/",
+      "summary": "A developer describes spending eight years wanting to build a particular project and completing it in three months using AI coding assistance. The post reflects on how LLM-assisted development changed the pace and feasibility of personal projects. It offers a first-person account of AI's practical impact on solo software development.",
+      "tags": [
+        "AI",
+        "tools",
+        "career"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-gemma-4-on-iphone",
+      "source": "hackernews",
+      "title": "Gemma 4 on iPhone via Google AI Edge Gallery",
+      "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337",
+      "summary": "Google's AI Edge Gallery app, now available on the iOS App Store, enables running Gemma 4 models directly on iPhone hardware without cloud connectivity. This demonstrates on-device generative AI inference on consumer mobile devices. It is a companion to the open-source Google AI Edge Gallery repository.",
+      "tags": [
+        "AI",
+        "ML",
+        "mobile"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-switzerland-25gbit-internet",
+      "source": "hackernews",
+      "title": "Why Switzerland has 25 Gbit internet and America doesn't",
+      "url": "https://sschueller.github.io/posts/the-free-market-lie/",
+      "summary": "The article argues that Switzerland's high-speed internet infrastructure is a result of regulated competition and public investment rather than free-market dynamics alone. It compares broadband policy and deployment approaches between Switzerland and the United States. The author challenges the narrative that deregulation produces optimal infrastructure outcomes.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-tiny-llm-guppylm",
+      "source": "hackernews",
+      "title": "Show HN: GuppyLM – a tiny LLM built to explain how language models work",
+      "url": "https://github.com/arman-bd/guppylm",
+      "summary": "GuppyLM is a minimal language model implementation designed for educational purposes, intended to demystify how LLMs function internally. The codebase is kept small to make core concepts such as tokenization, attention, and training legible. Targets developers and students wanting to understand LLM mechanics by reading and running the code.",
+      "tags": [
+        "AI",
+        "ML",
+        "tools"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-microsoft-gui-strategy-petzold",
+      "source": "hackernews",
+      "title": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+      "url": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/",
+      "summary": "Jeffrey Snover, creator of PowerShell, argues that Microsoft has lacked a consistent and coherent GUI application development strategy since the era of Charles Petzold's Windows programming. The post traces the fragmentation across Win32, WPF, WinForms, UWP, MAUI, and related frameworks. It reflects on the cost this inconsistency imposes on developers building Windows applications.",
+      "tags": [
+        "systems",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-artemis-ii-moon-farside",
+      "source": "hackernews",
+      "title": "Artemis II crew see first glimpse of far side of Moon",
+      "url": "https://www.bbc.com/news/videos/ce3d5gkd2geo",
+      "summary": "A BBC video report covering the Artemis II crew's first visual observation of the far side of the Moon during their mission. The crewed flyby marks a significant milestone in NASA's return to lunar exploration. The clip documents the historic moment from the perspective of the astronauts aboard.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-gemma-4-lm-studio-claude-code",
+      "source": "hackernews",
+      "title": "Running Gemma 4 locally with LM Studio's headless CLI and Claude Code",
+      "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
+      "summary": "A practical walkthrough of running Google's Gemma 4 model locally using LM Studio's new headless CLI interface alongside Claude Code as a development environment. The post covers setup, tooling integration, and observed performance on local hardware. Useful for developers evaluating local LLM deployment workflows.",
+      "tags": [
+        "AI",
+        "ML",
+        "tools"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-youtube-advanced-search",
+      "source": "hackernews",
+      "title": "Show HN: YouTube search with advanced filters",
+      "url": "https://playlists.at/youtube/search/",
+      "summary": "A web tool that provides advanced filtering capabilities for YouTube search, going beyond the native YouTube interface. Users can filter by criteria not easily accessible through YouTube's own search. The project addresses a common developer and power-user complaint about limited YouTube search ergonomics.",
+      "tags": [
+        "web",
+        "tools"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-employers-salary-personal-data",
+      "source": "hackernews",
+      "title": "Employers use personal data to determine the lowest salary a candidate will accept",
+      "url": "https://www.marketwatch.com/story/employers-are-using-your-personal-data-to-figure-out-the-lowest-salary-youll-accept-c2b968fb",
+      "summary": "A MarketWatch report examining how employers and recruiters use data aggregated from various personal and professional sources to estimate a candidate's salary floor before making an offer. The practice draws on consumer data, public records, and platform data to inform compensation negotiation strategy. The article raises concerns about information asymmetry in hiring.",
+      "tags": [
+        "career",
+        "security"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-music-for-programming",
+      "source": "hackernews",
+      "title": "Music for Programming",
+      "url": "https://musicforprogramming.net",
+      "summary": "A curated collection of music episodes specifically selected to aid focus during programming sessions. Each episode is a long-form mix intended to reduce distraction while maintaining mental engagement. The site has been a community staple for developers for many years.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-tail-call-interpreter-rust",
+      "source": "hackernews",
+      "title": "A tail-call interpreter in nightly Rust",
+      "url": "https://www.mattkeeter.com/blog/2026-04-05-tailcall/",
+      "summary": "A technical blog post detailing the implementation of a tail-call interpreter using nightly Rust features. The author explains how Rust's experimental support for tail calls can be leveraged to build an interpreter that avoids stack overflow on deeply recursive programs. Covers relevant Rust nightly APIs and the trade-offs involved.",
+      "tags": [
+        "systems",
+        "tools"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-france-gold-us",
+      "source": "hackernews",
+      "title": "France repatriates last gold held in the US, realizing $15B gain",
+      "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/",
+      "summary": "France has completed the repatriation of its remaining gold reserves held in the United States, reportedly realizing a $15 billion gain from the transaction. The move is part of a broader trend among nations reassessing their foreign-held gold reserves. The article covers the financial and geopolitical context of the decision.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-computational-physics-2nd-edition",
+      "source": "hackernews",
+      "title": "Computational Physics 2nd Edition (2025) – free textbook",
+      "url": "https://websites.umich.edu/~mejn/cp2/",
+      "summary": "The second edition of a computational physics textbook by Mark Newman, freely available online, updated in 2025. It covers numerical methods, simulations, and programming techniques applied to physics problems, primarily using Python. Widely used in undergraduate physics and computational science courses.",
+      "tags": [
+        "other",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-last-ninja-40kb",
+      "source": "hackernews",
+      "title": "The 1987 game 'The Last Ninja' fit in 40 kilobytes",
+      "url": "https://twitter.com/exQUIZitely/status/2040777977521398151",
+      "summary": "A tweet highlighting the technical achievement that the 1987 Commodore 64 game The Last Ninja, known for its detailed graphics and gameplay, was contained within 40 kilobytes. The observation prompts discussion about constraints-driven programming and the ingenuity of early game developers. It resonates with the retrocomputing and demoscene communities.",
+      "tags": [
+        "systems",
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-moonrf-240-antenna-array",
+      "source": "hackernews",
+      "title": "Open-source 240-antenna array for bouncing radio signals off the Moon",
+      "url": "https://moonrf.com/",
+      "summary": "MoonRF is an open-source project building a 240-antenna phased array radio system capable of Earth-Moon-Earth (EME) communication, where signals are reflected off the lunar surface. The project aims to make EME communication more accessible by open-sourcing hardware and software designs. Targets radio amateurs and researchers interested in long-distance communication experiments.",
+      "tags": [
+        "systems",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-parlor-realtime-ai-audio-video",
+      "source": "hackernews",
+      "title": "Show HN: Real-time AI audio/video input with voice output on M3 Pro using Gemma E2B",
+      "url": "https://github.com/fikrikarim/parlor",
+      "summary": "Parlor is an open-source demo showing real-time multimodal AI interaction — accepting audio and video input and producing voice output — running locally on an Apple M3 Pro chip using the Gemma E2B model. It demonstrates the feasibility of low-latency on-device multimodal AI without cloud inference. The repository includes source code and setup instructions.",
+      "tags": [
+        "AI",
+        "ML",
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-gemma-gem-browser-embedded",
+      "source": "hackernews",
+      "title": "Show HN: Gemma Gem – AI model running entirely in the browser, no API keys",
+      "url": "https://github.com/kessler/gemma-gem",
+      "summary": "Gemma Gem embeds a Gemma language model directly in the browser using WebAssembly or WebGPU, requiring no API keys or cloud connectivity. Users can interact with the model entirely client-side. The project demonstrates the current state of running small language models in web environments.",
+      "tags": [
+        "AI",
+        "web"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-age-verification-surveillance",
+      "source": "hackernews",
+      "title": "Age verification systems as mass surveillance infrastructure",
+      "url": "https://tboteproject.com/surveillancefindings/",
+      "summary": "An analysis arguing that age verification mandates for online platforms are being implemented in ways that create broad surveillance infrastructure, collecting identity data well beyond what age verification strictly requires. The report documents specific findings about data retention and third-party sharing practices. Raises concerns relevant to privacy engineers and policy-focused technologists.",
+      "tags": [
+        "security",
+        "other"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-btrfs-12tb-pool-recovery",
+      "source": "hackernews",
+      "title": "Case study: recovery of a corrupted 12 TB btrfs multi-device pool",
+      "url": "https://github.com/kdave/btrfs-progs/issues/1107",
+      "summary": "A detailed GitHub issue documenting the step-by-step recovery process for a severely corrupted 12 TB btrfs RAID pool spanning multiple devices. The thread covers diagnostic commands, metadata repair techniques, and the use of btrfs-progs tools to salvage data. Useful reference for system administrators managing btrfs storage at scale.",
+      "tags": [
+        "systems",
+        "data"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-usenet-archives",
+      "source": "hackernews",
+      "title": "Usenet Archives",
+      "url": "https://usenetarchives.com",
+      "summary": "A website providing searchable archives of historical Usenet posts, preserving decades of early internet discussion. The project aims to make this corpus accessible for research and historical interest. Usenet archives are valuable for understanding the evolution of technical culture and online communication norms.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-modo-open-source-ai-ide",
+      "source": "hackernews",
+      "title": "Show HN: Modo – open-source alternative to Kiro, Cursor, and Windsurf",
+      "url": "https://github.com/mohshomis/modo",
+      "summary": "Modo is an open-source AI-assisted code editor positioning itself as an alternative to proprietary tools like Cursor, Windsurf, and Kiro. It aims to provide similar LLM-integrated development features without vendor lock-in or subscription costs. The project is in early stages and targets developers seeking self-hostable AI coding tooling.",
+      "tags": [
+        "AI",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-germany-gold-new-york",
+      "source": "hackernews",
+      "title": "Is Germany's gold safe in New York?",
+      "url": "https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873",
+      "summary": "A DW video report examining the security and political considerations around Germany's gold reserves stored at the Federal Reserve Bank of New York. The piece addresses concerns raised amid shifting geopolitical dynamics about the safety and accessibility of foreign-held national reserves. Related to broader international discussions about gold repatriation.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-drop-massdrop-corsair",
+      "source": "hackernews",
+      "title": "Drop (formerly Massdrop) ends most collaborations and rebrands under Corsair",
+      "url": "https://drop.com/",
+      "summary": "Drop, the enthusiast hardware community platform formerly known as Massdrop, has announced the end of most of its collaborative product development efforts and is rebranding under its parent company Corsair. The platform was known for community-designed keyboards, headphones, and other peripherals. The change marks a significant shift away from the community-driven product model that defined the brand.",
+      "tags": [
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-llms-microservices",
+      "source": "hackernews",
+      "title": "Does coding with LLMs push developers toward more microservices?",
+      "url": "https://ben.page/microservices",
+      "summary": "An opinion piece exploring whether LLM-assisted coding influences architectural decisions, specifically whether it nudges developers toward microservice decomposition. The author examines how LLMs handle context windows and module boundaries as potential contributing factors. Raises architectural questions relevant to teams integrating AI coding tools.",
+      "tags": [
+        "AI",
+        "systems",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-man-page-section-numbers",
+      "source": "hackernews",
+      "title": "What the number in man page titles means, e.g. sleep(3)",
+      "url": "https://lalitm.com/til-number-in-man-page-titles-e-g-sleep-3/",
+      "summary": "A short TIL post explaining the section numbering convention in Unix man pages, such as the difference between sleep(1) and sleep(3). The numbers indicate which manual section the page belongs to, with section 1 covering user commands and section 3 covering library functions. A concise reference for developers unfamiliar with the convention.",
+      "tags": [
+        "systems",
+        "tools"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "hackernews-hightouch-hiring",
+      "source": "hackernews",
+      "title": "Hightouch (YC S19) Is Hiring",
+      "url": "https://hightouch.com/careers#open-positions",
+      "summary": "Hightouch, a Y Combinator-backed data activation platform, is advertising open engineering and other positions. The company focuses on syncing data from warehouses to business tools. This is a job posting announcement rather than a technical article.",
+      "tags": [
+        "career",
+        "data"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-linux-elf-dynamic-linking",
+      "source": "reddit",
+      "title": "How Linux executes binaries: ELF format and dynamic linking explained",
+      "url": "https://fmdlc.github.io/tty0/Linux_ELF_Dynamic_linking_EN.html",
+      "summary": "A technical article walking through how the Linux kernel loads and executes binary files, covering the ELF (Executable and Linkable Format) structure and the dynamic linker's role in resolving shared library dependencies at runtime. It explains program headers, segments, and the role of ld.so. Suitable as a reference for systems programmers and OS course students.",
+      "tags": [
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-gallery-dl-dmca-codeberg",
+      "source": "reddit",
+      "title": "gallery-dl moves to Codeberg after receiving DMCA notice over circumvention claims",
+      "url": "https://github.com/mikf/gallery-dl/discussions/9304",
+      "summary": "The maintainer of gallery-dl, a widely used media scraper tool, is migrating the project from GitHub to Codeberg following a DMCA takedown notice alleging circumvention of access controls. The discussion thread covers the legal grounds cited and the community's response to the migration. Raises broader questions about DMCA applicability to open-source scraping tools.",
+      "tags": [
+        "tools",
+        "security",
+        "other"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-anomaly-detection-welford-kv",
+      "source": "reddit",
+      "title": "Anomaly detection using Welford's algorithm and a KV store",
+      "url": "https://uriv.me/blog/anomaly-detection-with-welford-and-kv",
+      "summary": "A blog post describing a lightweight anomaly detection approach using Welford's online algorithm for computing running mean and variance, backed by a simple key-value store. The method requires no ML model and handles streaming data efficiently with minimal memory. Practical for use cases where a full statistical or ML pipeline is too heavy.",
+      "tags": [
+        "data",
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-webgpu-cellular-automata",
+      "source": "reddit",
+      "title": "Parallelizing cellular automata simulations with WebGPU compute shaders",
+      "url": "https://vectrx.substack.com/p/webgpu-cellular-automata",
+      "summary": "A technical article demonstrating how to run cellular automata simulations in parallel using WebGPU compute shaders in the browser. It covers shader code structure, buffer management, and achieved performance gains over CPU-based implementations. Relevant for web developers exploring GPU compute for simulation or visualization workloads.",
+      "tags": [
+        "web",
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-boss-fight-256-bytes",
+      "source": "reddit",
+      "title": "A complete boss fight game in 256 bytes",
+      "url": "https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html",
+      "summary": "A demoscene project that implements a functional boss fight game within a 256-byte executable, including graphics, collision detection, and game logic. The author details the extreme code-golfing and low-level tricks required to fit a complete interactive experience in that footprint. A showcase of constrained programming techniques from the demoscene community.",
+      "tags": [
+        "systems",
+        "other"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-visualizing-graphs-go-graphviz",
+      "source": "reddit",
+      "title": "Visualizing graph structures using Go and Graphviz",
+      "url": "https://dominik.info/blog/visualizing-graphs/",
+      "summary": "A tutorial showing how to programmatically generate and render graph visualizations using the Go programming language and the Graphviz library. The post covers constructing graph data structures, emitting DOT format, and rendering to image output. Useful for developers building tooling that requires structural or dependency visualization.",
+      "tags": [
+        "tools",
+        "data"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-open-table-formats-query-performance",
+      "source": "reddit",
+      "title": "How open table formats (Iceberg, Delta, Hudi) optimize query performance beyond indexes",
+      "url": "https://jack-vanlightly.com/blog/2025/10/8/beyond-indexes-how-open-table-formats-optimize-query-performance",
+      "summary": "An in-depth article examining how open table formats such as Apache Iceberg, Delta Lake, and Apache Hudi optimize analytical query performance through techniques like file pruning, partition evolution, and metadata statistics rather than traditional indexes. The author compares the approaches each format takes and the trade-offs involved. Relevant for data engineers and architects working on lakehouse platforms.",
+      "tags": [
+        "data",
+        "systems"
+      ],
+      "relevance": 5,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-esql-swiss-hash-tables",
+      "source": "reddit",
+      "title": "2–3x faster ES|QL aggregations using Swiss-style hash tables",
+      "url": "https://www.elastic.co/search-labs/blog/esql-swiss-hash-stats",
+      "summary": "An Elasticsearch engineering blog post describing performance improvements to ES|QL aggregation operations by replacing existing hash table implementations with Swiss-style (flat, open-addressing) hash tables. The change achieved 2–3x throughput gains in benchmark aggregation workloads. Covers the algorithmic motivation and implementation details in the context of the ES|QL query engine.",
+      "tags": [
+        "data",
+        "systems"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-physics-engine-c-youtube",
+      "source": "reddit",
+      "title": "Creating a physics engine in C – YouTube tutorial series",
+      "url": "https://youtu.be/khJm2A03MEI",
+      "summary": "A YouTube video tutorial walking through the construction of a physics simulation engine implemented in C from scratch. The series covers rigid body dynamics, collision detection, and constraint resolution. Targeted at developers interested in game physics or low-level simulation programming.",
+      "tags": [
+        "systems",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-openjdk-panama",
+      "source": "reddit",
+      "title": "OpenJDK Project Panama: Java foreign function and memory API",
+      "url": "https://openjdk.org/projects/panama/",
+      "summary": "Project Panama is an OpenJDK effort to improve the connection between Java and native code, delivering the Foreign Function and Memory API now stabilized in recent JDK releases. It replaces JNI with a safer, more ergonomic interface for calling native libraries and managing off-heap memory. Relevant for Java developers working on performance-sensitive or systems-level code.",
+      "tags": [
+        "systems",
+        "tools"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-cs-breakthroughs-2025",
+      "source": "reddit",
+      "title": "Biggest breakthroughs in computer science: 2025 recap",
+      "url": "https://www.youtube.com/watch?v=DFwppvrL_pE",
+      "summary": "A YouTube video summarizing the most significant computer science research breakthroughs from 2025, covering advances across algorithms, AI, hardware, and theory. The format is intended for a technical audience wanting a high-level review of the year's research landscape. Serves as a useful orientation for practitioners tracking academic progress.",
+      "tags": [
+        "AI",
+        "systems",
+        "other"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-phd-llm-dependency",
+      "source": "reddit",
+      "title": "[D] How to reduce over-reliance on LLMs as a PhD student",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdmn97/d_how_to_break_free_from_llms_chains_as_a_phd/",
+      "summary": "A community discussion among ML researchers and PhD students about the challenge of becoming over-dependent on LLM tools for research tasks such as literature review, code writing, and writing. Participants share strategies for preserving deep thinking skills while still benefiting from AI assistance. Reflects a broader tension in academic research communities about tool use and intellectual development.",
+      "tags": [
+        "AI",
+        "career"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-dante-2b-bilingual-llm",
+      "source": "reddit",
+      "title": "[P] Dante-2B: training a 2.1B bilingual Italian/English LLM from scratch on 2×H200",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdh08w/p_dante2b_im_training_a_21b_bilingual_fully_open/",
+      "summary": "A researcher shares progress on Dante-2B, a 2.1 billion parameter bilingual language model trained from scratch on Italian and English data using two H200 GPUs. Phase 1 of training is complete and the post details architectural choices, dataset composition, and training infrastructure. The project aims to produce a fully open model for the Italian language research community.",
+      "tags": [
+        "ML",
+        "AI"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-semantic-segmentation-saturated",
+      "source": "reddit",
+      "title": "[D] Is research in semantic segmentation saturated?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sd8kqx/d_is_research_in_semantic_segmentation_saturated/",
+      "summary": "A discussion thread on r/MachineLearning debating whether semantic segmentation has reached a saturation point as a research area, given high benchmark scores and declining novelty in methodology. Commenters debate open problems such as open-vocabulary segmentation, efficiency, and real-world robustness. Provides a community-level perspective on where the subfield may be heading.",
+      "tags": [
+        "ML",
+        "AI"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-icml-rebuttal-question",
+      "source": "reddit",
+      "title": "[D] ICML rebuttal process questions",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sd5rt3/d_icml_rebuttal_question/",
+      "summary": "A community thread where researchers ask and answer questions about the ICML paper rebuttal process, including norms around response length, addressing reviewer concerns, and expectations for score changes. Useful primarily for academics navigating the conference submission cycle. Limited broader technical relevance.",
+      "tags": [
+        "career",
+        "other"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-fused-moe-triton",
+      "source": "reddit",
+      "title": "[P] Fused MoE dispatch in pure Triton beating CUDA-optimized Megablocks at inference",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdaknc/p_fused_moe_dispatch_in_pure_triton_beating/",
+      "summary": "A project post presenting a pure Triton implementation of fused Mixture-of-Experts dispatch that outperforms CUDA-optimized Megablocks at inference batch sizes. The author details the kernel design, token routing strategy, and benchmarking methodology. Relevant to ML engineers working on efficient inference for MoE-based models such as Mixtral or similar architectures.",
+      "tags": [
+        "ML",
+        "systems",
+        "AI"
+      ],
+      "relevance": 5,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-ijcai-2026-rebuttal",
+      "source": "reddit",
+      "title": "[D] IJCAI 2026 rebuttal discussion",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdu1gd/d_ijcai_2026_rebuttal_discussion/",
+      "summary": "A community thread for researchers to discuss the IJCAI 2026 paper rebuttal period, sharing experiences, reviewer feedback patterns, and strategies. Primarily useful to academics actively participating in the IJCAI review cycle. Low general technical relevance.",
+      "tags": [
+        "career",
+        "other"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-icml-anonymized-git-repos",
+      "source": "reddit",
+      "title": "[R] ICML anonymized git repos for rebuttal submissions",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdjgt0/r_icml_anonymized_git_repos_for_rebuttal/",
+      "summary": "A discussion about the practice and tooling for submitting anonymized git repositories as supplementary material during the ICML rebuttal period to allow reviewers to inspect code without revealing author identity. Participants share services and scripts used for anonymization. Relevant to researchers preparing ICML submissions.",
+      "tags": [
+        "career",
+        "tools"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-all-gans-no-brakes",
+      "source": "reddit",
+      "title": "[P] All GANs No Brakes: GAN architecture and intuition explained",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdv0eb/p_all_gans_no_brakes_exploring_the_architecture/",
+      "summary": "An educational post or article exploring the architecture and intuition behind Generative Adversarial Networks, covering the generator-discriminator dynamic, training instability, and key variants. The author aims to build conceptual clarity for practitioners and students. Useful as an accessible technical refresher on GAN fundamentals.",
+      "tags": [
+        "ML",
+        "AI"
+      ],
+      "relevance": 3,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-speakflow-ai-dialogue",
+      "source": "reddit",
+      "title": "[P] SpeakFlow – AI dialogue practice coach using GLM 5.1",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdjzoh/p_speakflow_ai_dialogue_practice_coach_with_glm_51/",
+      "summary": "SpeakFlow is a project using GLM 5.1 to power an AI-driven dialogue practice application aimed at helping users improve conversational skills in a foreign language or professional context. The post describes the model integration, prompt design, and user interaction flow. Targets language learners and professionals seeking structured speaking practice.",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-background-sweeper-tool",
+      "source": "reddit",
+      "title": "[R] Looking for a highly accurate background removal tool",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdrunm/r_looking_for_a_highly_accurate_background/",
+      "summary": "A community request for recommendations on state-of-the-art background removal tools or models with high accuracy, particularly for challenging cases like hair or transparent objects. Responses likely cover tools such as SAM, rembg, and similar segmentation-based approaches. Low technical depth as a question post rather than original content.",
+      "tags": [
+        "ML",
+        "tools"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-audibench-probe-mediated-auditing",
+      "source": "reddit",
+      "title": "[R] Reference-model-free behavioral discovery via Probe-Mediated Adaptive Auditing",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdieuq/r_reference_model_free_behavioral_discovery_of/",
+      "summary": "A research paper presentation describing AudiBench, a framework for discovering behavioral patterns in language models without requiring a reference model, using probe-mediated adaptive auditing. The method identifies emergent model behaviors by learning internal probes and iteratively probing the target model. Relevant to researchers working on model interpretability and safety auditing.",
+      "tags": [
+        "ML",
+        "AI",
+        "security"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-ml-researcher-product-switch",
+      "source": "reddit",
+      "title": "[D] ML researcher considering a switch to a product company",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sd3ppx/d_ml_researcher_looking_to_switch_to_a_product/",
+      "summary": "A discussion thread where an ML researcher asks for advice on transitioning from an academic or research-focused role to a product engineering position at a commercial company. Respondents share perspectives on skill transferability, role differences, and what to expect in industry ML roles. Primarily of interest to researchers at career crossroads.",
+      "tags": [
+        "career",
+        "ML"
+      ],
+      "relevance": 2,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-ml-conference-deadlines",
+      "source": "reddit",
+      "title": "[R] Deadlines for major ML conferences",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdneq4/r_deadlines_for_main_conferences/",
+      "summary": "A community thread aggregating and discussing upcoming submission deadlines for major machine learning conferences such as NeurIPS, ICML, ICLR, and others. Useful for researchers planning their submission schedules. Functions as a community-maintained reference rather than original research.",
+      "tags": [
+        "career",
+        "other"
+      ],
+      "relevance": 1,
+      "read": false,
+      "bookmarked": false
+    },
+    {
+      "id": "reddit-memory-chip-market-paper",
+      "source": "reddit",
+      "title": "[D] A memory chip market loss of tens of billions traced to an ML paper",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1sdb7ne/d_the_memory_chip_market_lost_tens_of_billions/",
+      "summary": "A discussion examining how a machine learning research paper caused significant stock market losses in the memory chip sector, reportedly by affecting investor expectations around memory bandwidth requirements for AI workloads. The thread analyzes what the paper actually showed and why its market impact was disproportionate to its technical content. Highlights the financial sensitivity of the semiconductor sector to AI research publications.",
+      "tags": [
+        "ML",
+        "AI",
+        "data"
+      ],
+      "relevance": 4,
+      "read": false,
+      "bookmarked": false
+    }
+  ]
+}

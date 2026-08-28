@@ -1,0 +1,18 @@
+{
+  "name": "daily-feed",
+  "version": "1.0.0",
+  "description": "Local technical news aggregator — GitHub, HN, Reddit → Claude summary → dashboard",
+  "license": "MIT",
+  "author": "Myo Thant Zin",
+  "scripts": {
+    "start":     "node web/server.js",
+    "fetch":     "bash scripts/run-all.sh",
+    "summarise":  "bash summarise/summarise.sh",
+    "prepare":    "bash summarise/prepare-items.sh",
+    "build-feed": "bash summarise/build-feed.sh",
+    "refresh":    "bash scripts/run-all.sh && bash summarise/summarise.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

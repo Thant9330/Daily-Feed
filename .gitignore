@@ -1,0 +1,41 @@
+# ── Dependencies ──────────────────────────────────────────────
+node_modules/
+
+# ── Secrets — never commit ────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+.claude/settings.local.json
+
+# ── Generated outputs (rebuilt by run-all.sh / build-feed.sh) ──
+data/github.json
+data/hackernews.json
+data/reddit.json
+data/feed.json
+data/feed.md
+data/runs.log
+data/fetch-errors.log
+
+# Keep data/YYYY-MM-DD/ archive folders — they are history (CLAUDE.md)
+
+# ── Backups / editor / OS junk ────────────────────────────────
+*.bak
+*.bak2
+*.orig
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ── Temp ──────────────────────────────────────────────────────
+tmp/
+*.tmp

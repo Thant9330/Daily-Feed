@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Feed</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2016%2016%27%3E%3Cpolygon%20points%3D%275,3%2013,8%205,13%27%20fill%3D%27%236366f1%27/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-mark">▸</span>
+        <span class="brand-name">Daily Feed</span>
+        <span class="brand-date" id="feedDate">—</span>
+      </div>
+      <div class="header-controls">
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="6.5" cy="6.5" r="4.5"/>
+            <path d="M10 10l3.5 3.5"/>
+          </svg>
+          <input type="text" id="searchInput" placeholder="Search titles & summaries…" autocomplete="off" />
+          <button class="search-clear" id="searchClear" aria-label="Clear search">✕</button>
+        </div>
+        <div class="date-wrap">
+          <svg class="date-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="1" y="3" width="14" height="12" rx="1.5"/>
+            <path d="M1 7h14M5 1v4M11 1v4"/>
+          </svg>
+          <select id="datePicker" title="Browse archive">
+            <option value="">Today</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-source="github">
+          <span class="filter-dot github-dot"></span>GitHub
+        </button>
+        <button class="filter-btn active" data-source="hackernews">
+          <span class="filter-dot hn-dot"></span>Hacker News
+        </button>
+        <button class="filter-btn active" data-source="reddit">
+          <span class="filter-dot reddit-dot"></span>Reddit
+        </button>
+        <button class="filter-btn filter-bookmarks" id="bookmarksToggle" data-type="bookmarks">
+          <span class="star-icon">★</span>Bookmarks
+        </button>
+      </div>
+      <div class="stats" id="stats">
+        <span class="stat" id="statTotal">— items</span>
+        <span class="stat-sep">·</span>
+        <span class="stat" id="statUnread">— unread</span>
+        <span class="stat-sep">·</span>
+        <span class="stat" id="statBookmarked">— bookmarked</span>
+      </div>
+    </div>
+  </div>
+
+  <main class="main" id="main">
+    <div class="loading-state" id="loadingState">
+      <div class="spinner"></div>
+      <p>Loading feed…</p>
+    </div>
+    <div class="error-state hidden" id="errorState">
+      <div class="error-icon">⚠</div>
+      <p id="errorMessage">No feed yet — run <code>/refresh</code> to generate today's feed.</p>
+    </div>
+    <div class="empty-state hidden" id="emptyState">
+      <div class="empty-icon">◎</div>
+      <p>No results match your search or filters.</p>
+    </div>
+    <div class="cards-grid" id="cardsGrid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <span>Daily Feed</span>
+    <span class="footer-sep">·</span>
+    <span id="footerItemCount">0 items</span>
+    <span class="footer-sep">·</span>
+    <button class="footer-btn" id="markAllRead">Mark all read</button>
+    <button class="footer-btn" id="clearRead">Clear read</button>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
