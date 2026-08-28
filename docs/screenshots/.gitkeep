@@ -1,0 +1,5 @@
+Drop screenshots here:
+  reading-view.png   default reading view at localhost:3000
+  dashboard.png      card UI at localhost:3000/dashboard
+  archive.png        date picker open on the archive list
+Then uncomment the matching image lines in README.md.
